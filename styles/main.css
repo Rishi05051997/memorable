@@ -1,0 +1,41 @@
+/*
+    Author: Vrushabh Dhatrak
+    Release: 0.1
+    Description : main file used for all files.
+*/
+/*************** Component Imports ***************/
+@import "./variables.css";
+@import "./typography.css";
+@import "./layout.css";
+@import "./indexPage.css";
+@import "./animation.min.css";
+@import "./alert.css";
+@import "./avatar.css";
+@import "./badge.css";
+@import "./button.css";
+@import "./card.css";
+@import "./chips.css";
+@import "./image.css";
+@import "./input.css";
+@import "./modal.css";
+@import "./reset.css";
+@import "./simplified-grid.css";
+@import "./tab.css";
+
+/*************** Project Initials ***************/
+
+*, *::before, *::after {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Here converted Default font size to 10px */
+html {
+    font-size:62.5%;
+}
+
+@media (max-width: 400px) {
+    html {
+        font-size: 50%;
+    }
+}

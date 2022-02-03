@@ -1,0 +1,111 @@
+/*
+    Author: Vrushabh Dhatrak
+    Release: 0.1
+    Description : Variable file used for all files.
+*/
+/*************** External Imports ***************/
+@font-face{
+    font-family:"futura-pt-bold";
+    src:url("./../assets/fonts/FuturaPT/FuturaPTBold.otf") format("woff"),
+    url("./../assets/fonts/FuturaPT/FuturaPTBold.otf") format("opentype"),
+    url("./../assets/fonts/FuturaPT/FuturaPTBold.otf") format("truetype");
+}
+
+@font-face{
+    font-family:"futura-pt-demi";
+    src:url("./../assets/fonts/FuturaPT/FuturaPTDemi.otf") format("woff"),
+    url("./../assets/fonts/FuturaPT/FuturaPTDemi.otf") format("opentype"),
+    url("./../assets/fonts/FuturaPT/FuturaPTDemi.otf") format("truetype");
+}
+@font-face{
+    font-family:"futura-pt-light";
+    src:url("./../assets/fonts/FuturaPT/FuturaPTLight.otf") format("woff"),
+    url("./../assets/fonts/FuturaPT/FuturaPTLight.otf") format("opentype"),
+    url("./../assets/fonts/FuturaPT/FuturaPTLight.otf") format("truetype");
+}
+@font-face{
+    font-family:"futura-pt-cond-medium";
+    src:url("./../assets/fonts/FuturaPT/FuturaPTCondMedium.otf") format("woff"),
+    url("./../assets/fonts/FuturaPT/FuturaPTCondMedium.otf") format("opentype"),
+    url("./../assets/fonts/FuturaPT/FuturaPTCondMedium.otf") format("truetype");
+}
+
+:root {
+    --primary-color: #3b82f6;
+    --primary-color-hover: #226ee8;
+    --secondary-color: #eff6ff;
+    --background-color:#06f;
+    --primary-text-color:black;
+    --secondory-text-color:#636369;
+    --accent-color:'';
+    --primaryColorFaint:#3b82f61a;
+    /* Below Call to Action Colors */
+    --warningColor: #ff9800;
+    --dangerColor: #f44336;
+    --successColor: #4caf50;
+    --lightColor:#f7f7f7;
+    --darkColor:black;
+    --infoColor:#129fe0;
+
+    --lightDanger: rgb(253, 236, 234);
+    --lightWarning: #fff4e5;
+    --lightInfo: #e8f4fd;
+    --lightSuccess: #edf7ed;
+
+    --primary-color-hover: #a0b8df;
+    --secondory-text-color-hover:#65656ef3;
+    --warningColor-Hover: #f0c88c;
+    --dangerColor-hover: #f88f87;
+    --successColor-hover: #99c99b;
+    --lightColor-hover:#f7f7f7a2;
+    --darkColor-hover:rgb(68, 68, 68);
+    --infoColor-hover:#a7dcf5;
+    
+
+
+
+    /* Below One Heading font sizes for extra small, small, medium , large, extra large, extra extra large */
+    --h5-font-size:0.8rem;
+    --h4-font-size:1.6rem;
+    --h3-font-size:2.4rem;
+    --h2-font-size:3.2rem;
+    --h1-font-size:4.8rem;
+
+    /* Below One Text Utilities font sizes for extra small, small, medium , large, extra large, extra extra large */
+    --text-xs-font-size:0.8rem;
+    --text-sm-font-size:1.6rem;
+    --text-md-font-size:2.4rem;
+    --text-lg-font-size:3.2rem;
+    --text-xl-font-size:4.8rem;
+    
+   
+    --imgRoundRadius:50%;
+    /* Below One padding size for extra small, small, medium , large, extra large, extra extra large */
+    --pad-xs:0.8rem;
+    --pad-sm:1.6rem;
+    --pad-md:2.4rem;
+    --pad-lg:3.2rem;
+    --pad-xl:4rem;
+    --pad-xxl:6.4rem;
+    --pad-infinite:10rem;
+
+    /* Below One margin size for extra small, small, medium , large, extra large, extra extra large */
+    --mar-xs:0.8rem;
+    --mar-sm:1.6rem;
+    --mar-md:2.4rem;
+    --mar-lg:3.2rem;
+    --mar-xl:4rem;
+    --mar-xxl:6.4rem;
+    --mar-infinite:10rem;
+
+    --sm-border-radius:0.5rem;
+    --md-border-radius:1rem;
+    --lgborder-radius:1.5rem;
+    --xl-border-radius:50%;
+
+    --futuraPTBold:"futura-pt-bold";
+    --futuraPTDemi:"futura-pt-demi";
+    --futuraPTMedium:"futura-pt-medium";
+    --futuraPTLight:"futura-pt-light";
+
+}
