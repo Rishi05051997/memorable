@@ -1,7 +1,7 @@
 /*
     Author: Vrushabh Dhatrak
     Release: 0.1
-    Description : Variable file used for all files.
+    Description : All Variables
 */
 /*************** External Imports ***************/
 @font-face{
@@ -60,6 +60,13 @@
     --lightColor-hover:#f7f7f7a2;
     --darkColor-hover:rgb(68, 68, 68);
     --infoColor-hover:#a7dcf5;
+
+    /* Card badges Colors */
+    --redCardBadge:#ed1b24;
+    --orangeCardBadge:#fa7901;
+    --pinkCardBadge:#ee2b8b;
+    --blueCardBadge:#00adee;
+    --greenCardBadge:#b4bd00;
     
 
 
