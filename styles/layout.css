@@ -60,6 +60,8 @@
     }
 
     .header_container header .img_logo {
+        height: 5rem;
+        width: 5rem;
         filter: invert(100%);
     }
 
