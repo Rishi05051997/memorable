@@ -235,21 +235,22 @@
 
 /* ================== Cared Badge color CSS ========================*/
 .badge.red {
-    background: var(--redCardBadge);
+    background: var(--redCardBadge-color);
 }
 
 .badge.orange {
-    background: var(--orangeCardBadge);
+    background: var(--orangeCardBadge-color);
 }
 
 .badge.pink {
-    background:var(--pinkCardBadge);
+    background:var(--pinkCardBadge-color);
 }
 
 .badge.blue {
-    background: var(--blueCardBadge);;
+    background: var(--blueCardBadge-color);;
 }
 
 .badge.green {
-    background: var(--greenCardBadge);;
+    background: var(--greenCardBadge-color);;
 }
+

@@ -71,7 +71,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    color:var(--bgColor);
     grid-column: footer;
     margin: -7rem 0;
 }
