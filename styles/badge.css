@@ -1,28 +1,13 @@
-<<<<<<< HEAD
     /*
         Author: Vrushabh Dhatrak
         Release: 0.1
         Description : Badge Component CSS file.
     */
-=======
-    /* Main Section For Entire Project */
-    .main-content {
-        grid-column:main;
-        padding: var(--pad-lg) var(--pad-xxl);
-        margin: var(--mar-xxl) 0;
-    }
-
->>>>>>> 6bcad2a2134d586ae9b9ae453d3997124bed1d61
     /* Badges Starting Here */
     .badge_cont {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-<<<<<<< HEAD
-=======
-        
-        
->>>>>>> 6bcad2a2134d586ae9b9ae453d3997124bed1d61
     }
 
     .basic_container img {
@@ -74,11 +59,7 @@
         right: 0.4rem;
         color: #ffff;
         background: var(--primary-color);
-<<<<<<< HEAD
     }
-=======
-      }
->>>>>>> 6bcad2a2134d586ae9b9ae453d3997124bed1d61
       
     .notifyBadge span {
         font-size: 1.2rem;
@@ -87,12 +68,7 @@
         top: 0.1rem;
         color: #fff;
         font-weight:700;
-<<<<<<< HEAD
     }
-=======
-
-      }
->>>>>>> 6bcad2a2134d586ae9b9ae453d3997124bed1d61
 
     
 
