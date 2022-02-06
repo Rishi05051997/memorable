@@ -1,0 +1,256 @@
+/*
+    Author: Vrushabh Dhatrak
+    Release: 0.1
+    Description : Card Component Css
+*/
+/* Cards Starting Here */
+/******* Different Cards Container Widths *******/
+.xs-card-width {
+    width: 20rem;
+}
+
+.sm-card-width {
+    width: 25rem;
+}
+
+.md-card-width {
+    width: 30rem;
+}
+.lg-card-width {
+    width: 35rem;
+}
+.xl-card-width{
+    width: 40rem;
+}
+.xxl-card-width {
+    width: 60rem;
+}
+
+.card_cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+}
+.container_card {
+    background-color: #ffff;
+    border-radius: 1rem;
+    box-shadow: 1px 2px 1px 2px rgb(0 0 0 / 10%);
+    position: relative;
+}
+.container_card:hover {
+    box-shadow: 1px 5px 10px 3px rgba(150, 136, 136, 0.1);
+}
+
+.card_header {
+    position: relative;
+}
+.card_header .close_icon {
+    position: absolute;
+    top:5%;
+    right:5%;
+}
+.header_row {
+    display: flex;
+}
+.card_img {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+.sub_card_header {
+    position: absolute;
+    bottom: 0rem;
+    color: white;
+    margin-left: 1.5rem;
+}
+
+.card_footer {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.card_margin_auto_left{
+    display:flex;
+    justify-content:flex-end;
+}
+
+/* Card Badge */
+.card_badge::before {
+    position: absolute;
+    top: 0.7rem;
+    right: -2.2rem;
+    content: '';
+    height: 2.8rem;
+    width: 2.8rem;
+    width: 0;
+    height: 0;
+    border-top: 1.6rem solid transparent;
+    border-bottom: 2.7rem solid transparent;
+    border-left: 2.1rem solid var(--primary-color);
+}
+  
+.card_badge::after {
+    position: absolute;
+    content: attr(data-label);
+    top: 0.7rem;
+    right: -2.2rem;
+    padding: 0.5rem;
+    width: 6rem;
+    background: var(--primary-color);
+    color: white;
+    text-align: center;
+    font-family: "futura-pt-light";
+    box-shadow: 0.4rem 0.4rem 1.5rem rgb(26 35 126 / 20%);
+}
+
+
+
+    
+    
+/* ================== Badge CSS ========================*/
+.badge {
+    margin: 0;
+    padding: 0;
+    color: white;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: normal;
+    text-transform: uppercase;
+    background: #ed1b24;
+}
+
+.badge::before, .badge::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    margin: 0 -1px;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    min-width: 55px
+}
+
+.badge::before {
+    right: 100%
+}
+
+.badge::after {
+    left: 100%
+}
+
+/* ================== Card Badge Overlay CSS ========================*/
+.badge-overlay {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 10;
+    -webkit-transition: width 1s ease, height 1s ease;
+    -moz-transition: width 1s ease, height 1s ease;
+    -o-transition: width 1s ease, height 1s ease;
+    transition: width 0.4s ease, height 0.4s ease
+}
+
+/* ==================  Card Badge Position CSS ========================*/
+.top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    -ms-transform: translateX(-30%) translateY(0%) rotate(-45deg);
+    -webkit-transform: translateX(-30%) translateY(0%) rotate(-45deg);
+    transform: translateX(-30%) translateY(0%) rotate(-45deg);
+    -ms-transform-origin: top right;
+    -webkit-transform-origin: top right;
+    transform-origin: top right;
+}
+
+.top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    -ms-transform: translateX(30%) translateY(0%) rotate(45deg);
+    -webkit-transform: translateX(30%) translateY(0%) rotate(45deg);
+    transform: translateX(30%) translateY(0%) rotate(45deg);
+    -ms-transform-origin: top left;
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    -ms-transform: translateX(-30%) translateY(0%) rotate(45deg);
+    -webkit-transform: translateX(-30%) translateY(0%) rotate(45deg);
+    transform: translateX(-30%) translateY(0%) rotate(45deg);
+    -ms-transform-origin: bottom right;
+    -webkit-transform-origin: bottom right;
+    transform-origin: bottom right;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    -ms-transform: translateX(30%) translateY(0%) rotate(-45deg);
+    -webkit-transform: translateX(30%) translateY(0%) rotate(-45deg);
+    transform: translateX(30%) translateY(0%) rotate(-45deg);
+    -ms-transform-origin: bottom left;
+    -webkit-transform-origin: bottom left;
+    transform-origin: bottom left;
+}
+
+.top-full {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.middle-full {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    -ms-transform: translateX(0%) translateY(-50%) rotate(0deg);
+    -webkit-transform: translateX(0%) translateY(-50%) rotate(0deg);
+    transform: translateX(0%) translateY(-50%) rotate(0deg);
+}
+
+.bottom-full {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* ================== Cared Badge color CSS ========================*/
+.badge.red {
+    background: var(--redCardBadge-color);
+}
+
+.badge.orange {
+    background: var(--orangeCardBadge-color);
+}
+
+.badge.pink {
+    background:var(--pinkCardBadge-color);
+}
+
+.badge.blue {
+    background: var(--blueCardBadge-color);;
+}
+
+.badge.green {
+    background: var(--greenCardBadge-color);;
+}
+

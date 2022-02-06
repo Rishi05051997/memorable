@@ -1,7 +1,7 @@
 /*
     Author: Vrushabh Dhatrak
     Release: 0.1
-    Description : Layout Css for entire Project
+    Description : Layout file for documentation page.
 */
 /* Starting Template for entire Project Holy Grail Layout */
 .container {
@@ -31,7 +31,7 @@
     transition: 0.5s;
     background: var(--primary-color);
     padding: var(--pad-md) var(--pad-xl);
-    box-shadow: 0 0.5rem 2rem var(--primary-color-faint);
+    box-shadow: 0 0.5rem 2rem var(--primaryColorFaint);
 
 } 
 .header_container .header_title {
@@ -109,7 +109,7 @@
     margin: 2rem;
 }
 .container .aside .side-list ul li:hover {
-    background-color:var(--primary-color-faint);
+    background-color:var(--primaryColorFaint);
     border-bottom: 3px solid var(--primary-color);
 }
 .container .aside .side-list ul li svg {
@@ -129,9 +129,14 @@
 /******  Layout classes ********/
 .basic_container {
     width:100%;
-    border: 1px solid var(--primary-color);
+    border: 1px solid;
 }
 .basic_container iframe {
+    margin: 0 auto;
+    margin: 1rem auto;
+    display: flex;
+}
+.basic_container img {
     margin: 0 auto;
     margin: 1rem auto;
     display: flex;
@@ -140,11 +145,6 @@
     width: max-content;
     border: 1px solid;
 }
-/* .basic_container img {
-    margin: 0 auto;
-    margin: 1rem auto;
-    display: flex;
-} */
 /* Modal Container Layout classe Starting Here */
 .modal_cont {
     display: flex;
@@ -157,13 +157,6 @@
     flex-direction: row;
     justify-content: space-around;
 }
-/* Button Layout container Starting Here */
-.alert_cont {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    border: 1px solid var(--primary-color);
-}
 /* Avatar Starting Here */
 .avt_cont {
     display: flex;
@@ -172,23 +165,6 @@
     align-items: baseline;
     
 }
-
-/* Image Container Generic Starting Here */
-.img_cont {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.img_box {
-    display: flex;
-    flex-direction: column;
-    margin: 1rem 1rem 0 0;
-    width: 26rem;
-    align-items:center;
-    text-align:center;
-}
-/* Generic Classes */
 .cursor_ {
     cursor: pointer;
 }
@@ -202,7 +178,7 @@
 .imp-highlight-text {
     color:var(--primary-color);
     border: 1px solid transparent;
-    background: var(--primary-color-faint);
+    background: var(--primaryColorFaint);
 }
 .highlightMainText {
     color:var(--primary-color);
@@ -221,17 +197,6 @@
 .main-content-description--list {
     padding-left: 4rem;
     line-height: 1.6;
-}
-.code-snippet-display {
-    box-sizing: border-box;
-    width: 100%;
-    /* max-height: 500px; */
-    padding: 1rem 0;
-    background-color: #fafafa;
-    margin: 2rem 0;
-    border: 1px solid var(--primary-color);
-    overflow: auto;
-    border-radius: 0.3rem;
 }
 
 
