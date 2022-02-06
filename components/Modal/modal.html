@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./../../styles/main.css" />
+    <script src="./../../script/header.js" defer></script>
+    <script src="./../../script/navigation.js" defer></script>
+    <script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script>
+    <title>Modal</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header_container">
+        <header class="sticky">
+          <img
+            class="img_logo"
+            src="./../../assets/image section/logo.png"
+            height="50"
+            width="50"
+            alt=""
+          />
+          <a href="#" class="logo head-2">Memorable-UI </a>
+          <div class="toggle" onclick="toggleMenu();"></div>
+          <ul class="menu hide">
+            <li>
+              <a
+                onclick="toggleMenu();"
+                class="text-1"
+                href="./../Avatar/avatar.html"
+                >Avatar</a
+              >
+            </li>
+            <li>
+              <a
+                onclick="toggleMenu();"
+                class="text-1"
+                href="./../Alert/Alert.html"
+                >Alert</a
+              >
+            </li>
+            <li>
+              <a
+                onclick="toggleMenu();"
+                class="text-1"
+                href="./../Badge/bagde.html"
+                >Badge</a
+              >
+            </li>
+            <li>
+              <a
+                onclick="toggleMenu();"
+                class="text-1"
+                href="./../Button/button.html"
+                >Button</a
+              >
+            </li>
+            <li>
+              <a
+                onclick="toggleMenu();"
+                class="text-1"
+                href="./../Card/card.html"
+                >Card</a
+              >
+            </li>
+            <li>
+              <a
+                onclick="toggleMenu();"
+                class="text-1"
+                href="./../Image/image.html"
+                >Image</a
+              >
+            </li>
+            <li>
+              <a
+                onclick="toggleMenu();"
+                class="text-1"
+                href="./../Input/input.html"
+                >Input</a
+              >
+            </li>
+            <li>
+              <a
+                onclick="toggleMenu();"
+                class="text-1"
+                href="./../Modal/modal.html"
+                >Modal</a
+              >
+            </li>
+            <li>
+              <a onclick="toggleMenu();" class="text-1" href="#">Navigation</a>
+            </li>
+            <li>
+              <a onclick="toggleMenu();" class="text-1" href="#">Rating</a>
+            </li>
+            <li>
+              <a
+                onclick="toggleMenu();"
+                class="text-1"
+                href="./../Simplified Grid/simplified-grid.html"
+                >Simplified Grid</a
+              >
+            </li>
+            <li>
+              <a
+                onclick="toggleMenu();"
+                class="text-1"
+                href="./../Typography/typography.html"
+                >Typography</a
+              >
+            </li>
+          </ul>
+          <ul class="menu left_auto">
+            <li><a class="text-3">Documentation</a></li>
+            <div class="btn-round">
+              <button class="btn-primary xl-bdr-radius pad-xs">
+                <a href="https://www.github.com/">
+                  <span
+                    class="iconify"
+                    data-icon="akar-icons:github-fill"
+                  ></span>
+                </a>
+              </button>
+            </div>
+          </ul>
+        </header>
+      </div>
+      <aside class="aside">
+        <div class="side-list">
+          <ul class="text-3">
+            <h2 class="text-4 mar-md mar-y-4 imp-highlight-text">
+              Getting Started
+            </h2>
+            <li class="pad-xs aside-list list-type-none">
+              <span class="iconify" data-icon="carbon:user-avatar"></span>
+              <a
+                class="btn-primary-outline-non deco-none"
+                href="./../../components/Avatar/avatar.html"
+                >Avatar</a
+              >
+            </li>
+            <li class="pad-xs list-type-none">
+              <span
+                class="iconify"
+                data-icon="eva:alert-triangle-outline"
+              ></span>
+              <a
+                class="btn-primary-outline-non deco-none"
+                href="./../../components/Alert/Alert.html"
+                >Alert</a
+              >
+            </li>
+            <li class="pad-xs list-type-none">
+              <span class="iconify" data-icon="fluent:badge-20-filled"></span>
+              <a
+                class="btn-primary-outline-non deco-none"
+                href="./../../components/Badge/bagde.html"
+                >Badge</a
+              >
+            </li>
+            <li class="pad-xs list-type-none">
+              <span class="iconify" data-icon="dashicons:button"></span>
+              <a
+                class="btn-primary-outline-non deco-none"
+                href="./../../components/Button/button.html"
+                >Button</a
+              >
+            </li>
+            <li class="pad-xs list-type-none">
+              <span class="iconify" data-icon="charm:cards"></span>
+              <a
+                class="btn-primary-outline-non deco-none"
+                href="./../../components/Card/card.html"
+                >Card</a
+              >
+            </li>
+            <li class="pad-xs list-type-none">
+              <span class="iconify" data-icon="bi:file-earmark-image"></span>
+              <a
+                class="btn-primary-outline-non deco-none"
+                href="./../../components/Image/image.html"
+                >Image</a
+              >
+            </li>
+            <li class="pad-xs list-type-none">
+              <span class="iconify" data-icon="whh:html"></span>
+              <a
+                class="btn-primary-outline-non deco-none"
+                href="./../../components/Input/input.html"
+                >Input</a
+              >
+            </li>
+            <li class="pad-xs list-type-none">
+              <span class="iconify" data-icon="vaadin:modal-list"></span>
+              <a
+                class="btn-primary-outline-non deco-none"
+                href="./../../components/Modal/modal.html"
+                >Modal</a
+              >
+            </li>
+            <li class="pad-xs list-type-none">
+              <span
+                class="iconify"
+                data-icon="fluent:navigation-16-regular"
+              ></span>
+              <a class="btn-primary-outline-non deco-none" href="#"
+                >Navigation</a
+              >
+            </li>
+            <li class="pad-xs list-type-none">
+              <span class="iconify" data-icon="ic:twotone-star-rate"></span>
+              <a class="btn-primary-outline-non deco-none" href="#">Rating</a>
+            </li>
+            <li class="pad-xs list-type-none">
+              <span class="iconify" data-icon="bi:grid-1x2"></span>
+              <a
+                class="btn-primary-outline-non deco-none"
+                href="./../../components/Simplified Grid/simplified-grid.html"
+                >Simplified Grid</a
+              >
+            </li>
+            <li class="pad-xs list-type-none">
+              <span class="iconify" data-icon="octicon:typography-24"></span>
+              <a
+                class="btn-primary-outline-non deco-none"
+                href="./../../components/Typography/typography.html"
+                >Typography</a
+              >
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <div class="main-content content-wrap">
+        <div class="text-5">Modal</div>
+        <hr class="mar-y-3" />
+        <p class="mar-y-2 text-3">
+          A Modal component comes with different styles as -
+        </p>
+        <p class="mar-y-2 text-3">Different width sizes for modals are -</p>
+        <ul class="main-content-description--list text-3 mar-y-2">
+          <li>
+            <span class="imp-highlight-text sm-bdr-radius">xs-modal-width</span
+            >(30rem)
+          </li>
+          <li>
+            <span class="imp-highlight-text sm-bdr-radius">sm-modal-width</span
+            >(40rem)
+          </li>
+          <li>
+            <span class="imp-highlight-text sm-bdr-radius">md-modal-width</span
+            >(50rem)
+          </li>
+          <li>
+            <span class="imp-highlight-text sm-bdr-radius">lg-modal-width</span
+            >(60rem)
+          </li>
+          <li>
+            <span class="imp-highlight-text sm-bdr-radius">xl-modal-width</span
+            >(90rem)
+          </li>
+          <li>
+            <span class="imp-highlight-text sm-bdr-radius">xxl-modal-width</span
+            >(100rem)
+          </li>
+        </ul>
+        <div class="main-content-subblock">
+          <div class="text-4 mar-y-4 highlightMainText">Examples</div>
+
+          <div class="basic_container modal_cont mar-y-2 pad-md">
+            <div class="modal_container pad-md">
+              <div class="modal_body xs-modal-width">
+                <div class="head-3">Do you want to Exit?</div>
+                <p class="text-2 mar-y-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                  asperiores soluta odio natus temporibus amet at eius harum
+                  voluptas a.
+                </p>
+              </div>
+              <div class="modal_footer">
+                <button class="btn btn-primary text-2">Yes</button>
+                <button class="btn btn-danger text-2">No</button>
+              </div>
+            </div>
+          </div>
+          <iframe
+            class="mar-y-2"
+            src="https://carbon.now.sh/embed/MdJXqJygLul4afrXwdPZ"
+            style="
+              width: 100%;
+              height: auto;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+          <div class="basic_container modal_cont mar-y-2 pad-md">
+            <div class="modal_container pad-md mar-y-2">
+              <div class="modal_body xs-modal-width">
+                <div class="head-3">Do you want to Exit?</div>
+                <p class="text-2">Modal body text</p>
+              </div>
+              <div class="modal_footer">
+                <button class="btn btn-primary text-2">Yes</button>
+                <button class="btn btn-danger text-2">No</button>
+              </div>
+            </div>
+          </div>
+          <iframe
+            class="mar-y-2"
+            src="https://carbon.now.sh/embed/ftmGvclQ3ze7IQA7nJmM"
+            style="
+              width: 100%;
+              height: auto;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+          <div class="basic_container modal_cont mar-y-2 pad-md">
+            <div class="modal_container pad-md mar-y-2">
+              <div class="modal_body xs-modal-width">
+                <p class="text-3">Modal body text</p>
+              </div>
+              <div class="modal_footer">
+                <button class="btn btn-outline-primary text-2">Yes</button>
+                <button class="btn btn-outline-danger text-2">No</button>
+              </div>
+            </div>
+          </div>
+          <iframe
+            class="mar-y-2"
+            src="https://carbon.now.sh/embed/dffc3YxVBCB3dlXl3VkO"
+            style="
+              width: 100%;
+              height: auto;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+          <div class="basic_container modal_cont mar-y-2 pad-md">
+            <div class="modal_container pad-md mar-y-2">
+              <div class="modal_body xs-modal-width">
+                <p class="text-3">Modal body text</p>
+              </div>
+              <div class="modal_footer-verticle">
+                <button class="btn btn-primary text-2 mar-xs">Yes</button>
+                <button class="btn btn-danger text-2 mar-xs">No</button>
+              </div>
+            </div>
+          </div>
+          <iframe
+            class="mar-y-2"
+            src="https://carbon.now.sh/embed/9mlJkBqFoHJrE0ngXhzf"
+            style="
+              width: 100%;
+              height: auto;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+          <div class="basic_container modal_cont mar-y-2 pad-md">
+            <div class="modal_container pad-md mar-y-2">
+              <div class="modal_body xs-modal-width">
+                <div class="head-3">Do you want to Exit?</div>
+                <ul class="modal-list mar-y-2 text-2">
+                  <li class="pad-sm">
+                    <span class="iconify" data-icon="clarity:home-solid"></span>
+                    Item 1
+                  </li>
+                  <li class="pad-sm">
+                    <span class="iconify" data-icon="clarity:home-solid"></span>
+                    Item 2
+                  </li>
+                  <li class="pad-sm">
+                    <span class="iconify" data-icon="clarity:home-solid"></span>
+                    Item 3
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <iframe
+            class="mar-y-2"
+            src="https://carbon.now.sh/embed/O7hnaieYsV9GQ5hutIqS"
+            style="
+              width: 100%;
+              height: auto;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+          <div class="basic_container modal_cont mar-y-2 pad-md">
+            <div class="modal_container pad-md mar-y-2">
+              <div class="modal_body xs-modal-width">
+                <div class="head-3">Please select your fav home?</div>
+                <ul class="modal-list mar-y-2 text-2 modal-list-scroll">
+                  <li class="pad-xd">
+                    <input type="radio" name="home" id="" /><span
+                      class="iconify"
+                      data-icon="clarity:home-solid"
+                    ></span>
+                    Item 1
+                  </li>
+                  <li class="pad-xd">
+                    <input type="radio" name="home" id="" /><span
+                      class="iconify"
+                      data-icon="clarity:home-solid"
+                    ></span>
+                    Item 2
+                  </li>
+                  <li class="pad-xd">
+                    <input type="radio" name="home" id="" /><span
+                      class="iconify"
+                      data-icon="clarity:home-solid"
+                    ></span>
+                    Item 3
+                  </li>
+                  <li class="pad-xd">
+                    <input type="radio" name="home" id="" /><span
+                      class="iconify"
+                      data-icon="clarity:home-solid"
+                    ></span>
+                    Item 3
+                  </li>
+                  <li class="pad-xd">
+                    <input type="radio" name="home" id="" /><span
+                      class="iconify"
+                      data-icon="clarity:home-solid"
+                    ></span>
+                    Item 3
+                  </li>
+                  <li class="pad-xd">
+                    <input type="radio" name="home" id="" /><span
+                      class="iconify"
+                      data-icon="clarity:home-solid"
+                    ></span>
+                    Item 3
+                  </li>
+                </ul>
+              </div>
+              <div class="modal_footer">
+                <button class="btn btn-primary text-2">Yes</button>
+                <button class="btn btn-danger text-2">No</button>
+              </div>
+            </div>
+          </div>
+          <iframe
+            class="mar-y-2"
+            src="https://carbon.now.sh/embed/RSvJz6bs9vnMnVdDt06B"
+            style="
+              width: 100%;
+              height: auto;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+          <div class="basic_container modal_cont mar-y-2 pad-md">
+            <div class="modal_container pad-md mar-y-2">
+              <div class="modal_body xs-modal-width">
+                <div class="head-3">Please select your fav home?</div>
+                <ul class="modal-list mar-y-2 text-2 modal-list-scroll">
+                  <li class="pad-xd">
+                    <input type="radio" name="home" id="" /><span
+                      class="iconify"
+                      data-icon="clarity:home-solid"
+                    ></span>
+                    Item 1
+                  </li>
+                  <li class="pad-xd">
+                    <input type="radio" name="home" id="" /><span
+                      class="iconify"
+                      data-icon="clarity:home-solid"
+                    ></span>
+                    Item 2
+                  </li>
+                  <li class="pad-xd">
+                    <input type="radio" name="home" id="" /><span
+                      class="iconify"
+                      data-icon="clarity:home-solid"
+                    ></span>
+                    Item 3
+                  </li>
+                  <li class="pad-xd">
+                    <input type="radio" name="home" id="" /><span
+                      class="iconify"
+                      data-icon="clarity:home-solid"
+                    ></span>
+                    Item 3
+                  </li>
+                  <li class="pad-xd">
+                    <input type="radio" name="home" id="" /><span
+                      class="iconify"
+                      data-icon="clarity:home-solid"
+                    ></span>
+                    Item 3
+                  </li>
+                  <li class="pad-xd">
+                    <input type="radio" name="home" id="" /><span
+                      class="iconify"
+                      data-icon="clarity:home-solid"
+                    ></span>
+                    Item 3
+                  </li>
+                </ul>
+              </div>
+              <div class="modal_footer-verticle">
+                <button class="btn btn-primary text-2">Yes</button>
+                <button class="btn btn-danger text-2">No</button>
+              </div>
+            </div>
+          </div>
+          <iframe
+            class="mar-y-2"
+            src="https://carbon.now.sh/embed/uAcn76UaaLNs88HDWuAR"
+            style="
+              width: 100%;
+              height: auto;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+          <div class="basic_container modal_cont mar-y-2 pad-md">
+            <div class="modal_container md-modal-width mar-y-2">
+              <div class="modal_header pad-md">
+                <div class="head-2">Modal Title</div>
+                <button class="btn btn-outline-primary modal-close">
+                  <span class="iconify" data-icon="ep:close"></span>
+                </button>
+              </div>
+              <div class="modal_body_ text-2 pad-md">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                  atque quibusdam praesentium magnam beatae dolore consectetur
+                  facilis itaque tempora, ab ipsam temporibus molestiae id rem
+                  error odit, earum dignissimos aliquid? Iusto, placeat. Nam.
+                </p>
+              </div>
+              <div class="modal_footer pad-sm">
+                <button class="btn btn-secondory text-2">Close</button>
+                <button class="btn btn-primary text-2">Save Changes</button>
+              </div>
+            </div>
+          </div>
+          <iframe
+            class="mar-y-2"
+            src="https://carbon.now.sh/embed/DuBkpSAghHQ9QaoOpwU9"
+            style="
+              width: 100%;
+              height: auto;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

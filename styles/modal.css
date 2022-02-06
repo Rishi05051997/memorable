@@ -1,0 +1,89 @@
+/*
+    Author: Vrushabh Dhatrak
+    Release: 0.1
+    Description : Modal Component Css
+*/
+/* Modal Starting here  */
+.modal_cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:var(--primary-color-faint);
+}
+.modal_container {
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 1px 2px 1px 2px rgb(0 0 0 / 10%);
+    position: relative;
+}
+.modal_header {
+    display: flex;
+    border-bottom: 1px solid;
+}
+.modal_header .modal-close {
+    margin-left:auto;
+}
+.modal_header .modal-close svg {
+    height:2.5rem;
+    width:2.5rem;
+}
+.modal_body_ {
+    border-bottom: 1px solid;
+    width:100%;
+}
+.xs-modal-width {
+    width: 30rem;
+}
+.sm-modal-width {
+    width: 40rem;
+}
+.md-modal-width {
+    width: 50rem;
+}
+.lg-modal-width {
+    width: 60rem;
+}
+.xl-modal-width{
+    width: 90rem;
+}
+.xxl-modal-width {
+    width: 100rem;
+}
+.modal-list li {
+    list-style-type: none;
+}
+.modal-list svg {
+    height: 3rem;
+    width:3rem;
+}
+.modal-list-scroll {
+    height: 10rem;
+    overflow-y: auto;
+}
+.modal_footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 10px;
+}
+.modal_footer-verticle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.5rem;
+}
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  
+
+
