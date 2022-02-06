@@ -1,0 +1,220 @@
+/*
+    Author: Vrushabh Dhatrak
+    Release: 0.1
+    Description : Button Component Css
+*/
+/* Button Starting Here */
+.btn {
+    padding: 0.7rem;
+    color: #fff;
+    max-width:max-content;
+    border-radius: 0.3rem;
+    margin: 0 1rem 0 0;
+    cursor: pointer;
+}
+.btn a {
+    all: unset;
+}
+/* Primary Button */ 
+.btn-primary {
+    border: 0.2rem solid var(--primary-color);
+    background: var(--primary-color);
+    
+}
+/* secondory Button */ 
+.btn-secondory {
+    border: 0.2rem solid var(--secondory-text-color);
+    background: var(--secondory-text-color);
+}
+/* success Button */ 
+.btn-success {
+    border: 0.2rem solid var(--success-color);
+    background: var(--success-color);
+}
+/* warning Button */ 
+.btn-warning {
+    border: 0.2rem solid var(--warning-color);
+    background: var(--warning-color);
+    color: var(--primary-text-color);
+}
+/* danger Button */ 
+.btn-danger {
+    border: 0.2rem solid var(--danger-color);
+    background: var(--danger-color);
+}
+/* dark Button */ 
+.btn-dark {
+    border: 0.2rem solid var(--dark-color);
+    background: var(--dark-color);
+    
+}
+/* light Button */ 
+.btn-light {
+    border: 0.2rem solid var(--light-color);
+    background: var(--light-color);
+    color: var(--primary-text-color);
+}
+/* information Button */ 
+.btn-info {
+    border: 0.2rem solid var(--info-color);
+    background: var(--info-color);
+    color: var(--primary-text-color);
+}
+/* link Button */ 
+.btn-link {
+    text-decoration:underline;
+    background: transparent;
+    color: var(--primary-color);
+    border: transparent;
+}
+/* Simple Buttons hover state*/
+.btn-primary:hover {
+    border: 0.2rem solid var(--primary-color-hover);
+    background: var(--primary-color-hover);
+    
+}
+.btn-secondory:hover {
+    border: 0.2rem solid var(--secondory-text-color-hover);
+    background: var(--secondory-text-color-hover);
+}
+.btn-success:hover {
+    border: 0.2rem solid var(--success-color-hover);
+    background: var(--success-color-hover);
+}
+.btn-warning:hover {
+    border: 0.2rem solid var(--warning-color-hover);
+    background: var(--warning-color-hover);
+    color: var(--primary-text-color-hover);
+}
+.btn-danger:hover {
+    border: 0.2rem solid var(--danger-color-hover);
+    background: var(--danger-color-hover);
+}
+.btn-dark:hover {
+    border: 0.2rem solid var(--dark-color-hover);
+    background: var(--dark-color-hover);
+}
+.btn-light:hover {
+    border: 0.2rem solid var(--light-color-hover);
+    background: var(--light-color-hover);
+    color: var(--primary-text-color-hover);
+}
+.btn-info:hover {
+    border: 0.2rem solid var(--info-color-hover);
+    background: var(--info-color-hover);
+    color: var(--primary-text-color-hover);
+}
+.btn-link:hover {
+    text-decoration:underline;
+    background: transparent;
+    color: var(--primary-color-hover);
+    border: transparent;
+}
+/* Outline Buttons */
+/* primary outline Button */ 
+.btn-outline-primary {
+    border: 0.2rem solid var(--primary-color);
+    color: var(--primary-color);
+    background:transparent;
+}
+/* secondory outline Button */ 
+.btn-outline-secondory {
+    border: 0.2rem solid var(--secondory-text-color);
+    color: var(--secondory-text-color);
+    background:transparent;
+}
+/* success outline Button */ 
+.btn-outline-success {
+    border: 0.2rem solid var(--success-color);
+    color: var(--success-color);
+    background:transparent;
+}
+/* warning outline Button */ 
+.btn-outline-warning {
+    border: 0.2rem solid var(--warning-color);
+    color: var(--warning-color);
+    background:transparent;
+}
+/* danger outline Button */ 
+.btn-outline-danger {
+    border: 0.2rem solid var(--danger-color);
+    color: var(--danger-color);
+    background:transparent;
+}
+/* dark outline Button */ 
+.btn-outline-dark {
+    border: 0.2rem solid var(--dark-color);
+    color: var(--primary-text-color);
+    background:transparent;
+}
+/* light outline Button */ 
+.btn-outline-light {
+    border: 0.2rem solid var(--light-color);
+    color: var(--primary-text-color);
+    background:transparent;
+}
+/* light outline Button */ 
+.btn-outline-info {
+    border: 0.2rem solid var(--info-color);
+    color: var(--info-color);
+    background:transparent;
+}
+/* hover state */
+.btn-outline-primary:hover {
+    border: 0.2rem solid var(--primary-color-hover);
+    color: var(--primary-color-hover);
+    background:transparent;
+}
+.btn-outline-secondory:hover {
+    border: 0.2rem solid var(--secondory-text-color-hover);
+    color: var(--secondory-text-color-hover);
+    background:transparent;
+}
+.btn-outline-success:hover {
+    border: 0.2rem solid var(--success-color-hover);
+    color: var(--success-color-hover);
+    background:transparent;
+}
+.btn-outline-warning:hover {
+    border: 0.2rem solid var(--warning-color-hover);
+    color: var(--warning-color-hover);
+    background:transparent;
+}
+.btn-outline-danger:hover {
+    border: 0.2rem solid var(--danger-color-hover);
+    color: var(--danger-color);
+    background:transparent;
+}
+.btn-outline-dark:hover {
+    border: 0.2rem solid var(--dark-color-hover);
+    color: var(--primary-text-color-hover);
+    background:transparent;
+}
+.btn-outline-light:hover {
+    border: 0.2rem solid var(--light-color-hover);
+    color: var(--primary-text-color-hover);
+    background:transparent;
+}
+
+.btn-outline-info:hover {
+    border: 0.2rem solid var(--info-color-hover);
+    color: var(--info-color-hover);
+    background:transparent;
+};
+/* Round Button Starting */ 
+.btn-round .round {
+    border-radius: 50%;
+    padding: 0.1rem;
+}
+.btn-round a svg {
+    width: 2rem;
+    height: 2rem;
+    color: #fff;
+}
+/* Float Button Starting */ 
+.btn-float {
+    color: #ffff;
+    width: 10rem;
+    height: 7.4rem;
+    box-shadow: 0.1rem 0.2rem 1.3rem 0.2rem #5a5a5aa1;
+}

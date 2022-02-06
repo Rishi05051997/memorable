@@ -1,0 +1,42 @@
+/*
+    Author: Vrushabh Dhatrak
+    Release: 0.1
+    Description : Alert Component Css
+*/
+/* Alert Starting Here*/
+.alert {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    max-width: max-content;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.alert svg {
+    cursor: pointer;
+}
+/* Error Alert */
+.error-alert {
+    background-color: var(--light-danger-color);
+    border-left: 1rem solid var(--danger-color);
+    color: var(--danger-color);
+}
+/* Warning Alert */
+.warning-alert {
+    background-color: var(--light-warning-color);
+    border-left: 1rem solid var(--warning-color);
+    color: var(--warning-color);
+}
+/* Info Alert */
+.info-alert {
+    background-color: var(--light-info-color);
+    border-left: 1rem solid var(--info-color);
+    color: var(--info-color);
+}
+/* Success Alert */
+.success-alert {
+    background-color: var(--light-success-color);
+    border-left: 1rem solid var(--success-color);
+    color: var(--success-color);
+}

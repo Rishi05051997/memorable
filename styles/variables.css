@@ -1,8 +1,3 @@
-/*
-    Author: Vrushabh Dhatrak
-    Release: 0.1
-    Description : Variable file used for all files.
-*/
 /*************** External Imports ***************/
 @font-face{
     font-family:"futura-pt-bold";
@@ -35,31 +30,37 @@
     --primary-color-hover: #226ee8;
     --secondary-color: #eff6ff;
     --background-color:#06f;
-    --primary-text-color:black;
+    --primary-text-color:#000000;
     --secondory-text-color:#636369;
-    --accent-color:'';
-    --primaryColorFaint:#3b82f61a;
+    --primary-color-faint:#3b82f61a;
     /* Below Call to Action Colors */
-    --warningColor: #ff9800;
-    --dangerColor: #f44336;
-    --successColor: #4caf50;
-    --lightColor:#f7f7f7;
-    --darkColor:black;
-    --infoColor:#129fe0;
+    --warning-color: #ff9800;
+    --danger-color: #f44336;
+    --success-color: #4caf50;
+    --light-color:#f7f7f7;
+    --dark-color:#000000;
+    --info-color:#129fe0;
 
-    --lightDanger: rgb(253, 236, 234);
-    --lightWarning: #fff4e5;
-    --lightInfo: #e8f4fd;
-    --lightSuccess: #edf7ed;
+    --light-danger-color: #fdecfd;
+    --light-warning-color: #fff4e5;
+    --light-info-color: #e8f4fd;
+    --light-success-color: #edf7ed;
 
     --primary-color-hover: #a0b8df;
     --secondory-text-color-hover:#65656ef3;
-    --warningColor-Hover: #f0c88c;
-    --dangerColor-hover: #f88f87;
-    --successColor-hover: #99c99b;
-    --lightColor-hover:#f7f7f7a2;
-    --darkColor-hover:rgb(68, 68, 68);
-    --infoColor-hover:#a7dcf5;
+    --warning-color-hover: #f0c88c;
+    --danger-color-hover: #f88f87;
+    --success-color-hover: #99c99b;
+    --light-color-hover:#f7f7f7a2;
+    --dark-color-hover:#444444;
+    --info-color-hover:#a7dcf5;
+
+    /* Card badges Colors */
+    --redCardBadge-color:#ed1b24;
+    --orangeCardBadge-color:#fa7901;
+    --pinkCardBadge-color:#ee2b8b;
+    --blueCardBadge-color:#00adee;
+    --greenCardBadge-color:#b4bd00;
     
 
 

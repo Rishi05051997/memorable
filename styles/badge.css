@@ -1,0 +1,67 @@
+/*
+    Author: Vrushabh Dhatrak
+    Release: 0.1
+    Description : Badge Component CSS file.
+*/
+/* Badges Starting Here */
+.badge_cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.basic_container img {
+    margin: 0 auto;
+    margin: 1rem auto;
+    display: flex;
+}
+.badge_div {
+    position: relative;
+    
+}
+.onlineBadge {
+    width: 2rem;
+    height: 2rem;
+    background: var(--success-color);
+    position: relative;
+    border-radius: 50%;
+    border: 0.4rem solid #ffff;
+    position: absolute;
+    bottom: 1rem;
+    right: 0;
+    
+}
+.busyBadge {
+    width: 2rem;
+    height: 2rem;
+    background: var(--danger-color);
+    position: relative;
+    border-radius: 50%;
+    border: 0.4rem solid #ffff;
+    position: absolute;
+    bottom: 1rem;
+    right: 0;
+}
+.badge_div svg {
+    height: 5.1rem;
+    width: auto;
+}
+.notifyBadge {
+    width: 2rem;
+    height: 2rem;
+    border: 0.2rem solid var(--primary-color);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0.4rem;
+    color: #ffff;
+    background: var(--primary-color);
+}
+  
+.notifyBadge span {
+    font-size: 1.2rem;
+    position: relative;
+    left: 0.1rem;
+    top: 0.1rem;
+    color: #fff;
+    font-weight:700;
+}
