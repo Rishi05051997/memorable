@@ -58,7 +58,7 @@
 
 /* First Input Field With Error Starting Here */
 .input_field_error{
-    border: 0.2rem solid var(--dangerColor);
+    border: 0.2rem solid var(--danger-color);
     border-radius: 0.5rem;
     color: #fff;
     padding: 1.25rem;
@@ -68,11 +68,11 @@
     flex-grow: 1;
 }
 .input .input_field_error:hover{
-    border-color: var(--dangerColor);
+    border-color: var(--danger-color);
 
 }
 .input_field_error:focus{
-    outline: 2px solid var(--dangerColor);
+    outline: 2px solid var(--danger-color);
 }
 /* What does below code mean if user click on input field then label will move upwards & if user enter some text and click outside then label will not come to its original position it remains its position  */
 .input_field_error:focus ~ .input__label,
@@ -80,13 +80,13 @@
     top:-0.5rem;
     font-size:0.8rem;
     left: 0.8rem;
-    border-color: var(--dangerColor);
+    border-color: var(--danger-color);
 }
 
 /* First Input Field With Error State Starting Here */
 .input_field_success{
     width: 25rem;
-    border: 0.2rem solid var(--successColor);
+    border: 0.2rem solid var(--success-color);
     border-radius: 0.5rem;
     color: #fff;
     padding: 1.25rem;
@@ -95,11 +95,11 @@
     flex-grow: 1;
 }
 .input .input_field_success:hover{
-    border-color: var(--successColor);
+    border-color: var(--success-color);
 
 }
 .input_field_success:focus{
-    outline: 2px solid var(--successColor);
+    outline: 2px solid var(--success-color);
 }
 /* What does below code mean if user click on input field then label will move upwards & if user enter some text and click outside then label will not come to its original position it remains its position  */
 .input_field_success:focus ~ .input__label,
@@ -107,7 +107,7 @@
     top:-0.5rem;
     font-size:0.8rem;
     left: 0.8rem;
-    border-color: var(--successColor);
+    border-color: var(--success-color);
 }
 
 /*New Input Field Variety Start*/
@@ -192,7 +192,7 @@
     border-top-left-radius: 0.3rem;
     border-top-right-radius: 0.3rem;
     background:
-      linear-gradient(90deg,var(--dangerColor), var(--dangerColor)) center bottom/0 0.15em no-repeat,
+      linear-gradient(90deg,var(--danger-color), var(--danger-color)) center bottom/0 0.15em no-repeat,
       linear-gradient(90deg, #ccc, #ccc) left bottom/100% 0.15em no-repeat,
       linear-gradient(90deg, #fafafa, #fafafa) left bottom/100% no-repeat;
     transition: background-size 0.3s ease;
@@ -211,7 +211,7 @@
     border-top-left-radius: 0.3rem;
     border-top-right-radius: 0.3rem;
     background:
-      linear-gradient(90deg,var(--successColor), var(--successColor)) center bottom/0 0.15em no-repeat,
+      linear-gradient(90deg,var(--success-color), var(--success-color)) center bottom/0 0.15em no-repeat,
       linear-gradient(90deg, #ccc, #ccc) left bottom/100% 0.15em no-repeat,
       linear-gradient(90deg, #fafafa, #fafafa) left bottom/100% no-repeat;
     transition: background-size 0.3s ease;
