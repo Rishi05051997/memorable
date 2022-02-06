@@ -1,0 +1,228 @@
+    /* Button Starting Here */
+    .btn {
+        padding: 0.7rem;
+        color: #fff;
+        max-width:max-content;
+        border-radius: 0.3rem;
+        margin: 0 1rem 0 0;
+        cursor: pointer;
+    }
+    .btn a {
+        all: unset;
+    }
+    /* Primary Button */ 
+    .btn-primary {
+        border: 0.2rem solid var(--primary-color);
+        background: var(--primary-color);
+        
+    }
+    /* secondory Button */ 
+    .btn-secondory {
+        border: 0.2rem solid var(--secondory-text-color);
+        background: var(--secondory-text-color);
+    }
+    /* success Button */ 
+    .btn-success {
+        border: 0.2rem solid var(--successColor);
+        background: var(--successColor);
+    }
+    /* warning Button */ 
+    .btn-warning {
+        border: 0.2rem solid var(--warningColor);
+        background: var(--warningColor);
+        color: var(--primary-text-color);
+    }
+    /* danger Button */ 
+    .btn-danger {
+        border: 0.2rem solid var(--dangerColor);
+        background: var(--dangerColor);
+    }
+    /* dark Button */ 
+    .btn-dark {
+        border: 0.2rem solid var(--darkColor);
+        background: var(--darkColor);
+        
+    }
+    /* light Button */ 
+    .btn-light {
+        border: 0.2rem solid var(--lightColor);
+        background: var(--lightColor);
+        color: var(--primary-text-color);
+    }
+    /* information Button */ 
+    .btn-info {
+        border: 0.2rem solid var(--infoColor);
+        background: var(--infoColor);
+        color: var(--primary-text-color);
+    }
+    /* link Button */ 
+    .btn-link {
+        text-decoration:underline;
+        background: transparent;
+        color: var(--primary-color);
+        border: transparent;
+    }
+
+    /* Simple Buttons Hover state*/
+    .btn-primary:hover {
+        border: 0.2rem solid var(--primary-color-hover);
+        background: var(--primary-color-hover);
+        
+    }
+    .btn-secondory:hover {
+        border: 0.2rem solid var(--secondory-text-color-hover);
+        background: var(--secondory-text-color-hover);
+    }
+    .btn-success:hover {
+        border: 0.2rem solid var(--successColor-hover);
+        background: var(--successColor-hover);
+    }
+    .btn-warning:hover {
+        border: 0.2rem solid var(--warningColor-Hover);
+        background: var(--warningColor-Hover);
+        color: var(--primary-text-color-hover);
+    }
+    .btn-danger:hover {
+        border: 0.2rem solid var(--dangerColor-hover);
+        background: var(--dangerColor-hover);
+    }
+
+    .btn-dark:hover {
+        border: 0.2rem solid var(--darkColor-hover);
+        background: var(--darkColor-hover);
+    }
+    .btn-light:hover {
+        border: 0.2rem solid var(--lightColor-hover);
+        background: var(--lightColor-hover);
+        color: var(--primary-text-color-hover);
+    }
+    .btn-info:hover {
+        border: 0.2rem solid var(--infoColor-hover);
+        background: var(--infoColor-hover);
+        color: var(--primary-text-color-hover);
+    }
+    .btn-link:hover {
+        text-decoration:underline;
+        background: transparent;
+        color: var(--primary-color-hover);
+        border: transparent;
+    }
+
+    /* Outline Buttons */
+    /* primary outline Button */ 
+    .btn-outline-primary {
+        border: 0.2rem solid var(--primary-color);
+        color: var(--primary-color);
+        background:transparent;
+    }
+    /* secondory outline Button */ 
+    .btn-outline-secondory {
+        border: 0.2rem solid var(--secondory-text-color);
+        color: var(--secondory-text-color);
+        background:transparent;
+    }
+    /* success outline Button */ 
+    .btn-outline-success {
+        border: 0.2rem solid var(--successColor);
+        color: var(--successColor);
+        background:transparent;
+    }
+    /* warning outline Button */ 
+    .btn-outline-warning {
+        border: 0.2rem solid var(--warningColor);
+        color: var(--warningColor);
+        background:transparent;
+    }
+    /* danger outline Button */ 
+    .btn-outline-danger {
+        border: 0.2rem solid var(--dangerColor);
+        color: var(--dangerColor);
+        background:transparent;
+    }
+    /* dark outline Button */ 
+    .btn-outline-dark {
+        border: 0.2rem solid var(--darkColor);
+        color: var(--primary-text-color);
+        background:transparent;
+    }
+    /* light outline Button */ 
+    .btn-outline-light {
+        border: 0.2rem solid var(--lightColor);
+        color: var(--primary-text-color);
+        background:transparent;
+    }
+    /* light outline Button */ 
+    .btn-outline-info {
+        border: 0.2rem solid var(--infoColor);
+        color: var(--infoColor);
+        background:transparent;
+    }
+
+    /* Hover state */
+    .btn-outline-primary:hover {
+        border: 0.2rem solid var(--primary-color-hover);
+        color: var(--primary-color-hover);
+        background:transparent;
+    }
+
+    .btn-outline-secondory:hover {
+        border: 0.2rem solid var(--secondory-text-color-hover);
+        color: var(--secondory-text-color-hover);
+        background:transparent;
+    }
+
+    .btn-outline-success:hover {
+        border: 0.2rem solid var(--successColor-hover);
+        color: var(--successColor-hover);
+        background:transparent;
+    }
+
+    .btn-outline-warning:hover {
+        border: 0.2rem solid var(--warningColor-Hover);
+        color: var(--warningColor-Hover);
+        background:transparent;
+    }
+
+    .btn-outline-danger:hover {
+        border: 0.2rem solid var(--dangerColor-hover);
+        color: var(--dangerColor);
+        background:transparent;
+    }
+
+    .btn-outline-dark:hover {
+        border: 0.2rem solid var(--darkColor-hover);
+        color: var(--primary-text-color-hover);
+        background:transparent;
+    }
+
+    .btn-outline-light:hover {
+        border: 0.2rem solid var(--lightColor-hover);
+        color: var(--primary-text-color-hover);
+        background:transparent;
+    }
+    
+    .btn-outline-info:hover {
+        border: 0.2rem solid var(--infoColor-hover);
+        color: var(--infoColor-hover);
+        background:transparent;
+    };
+
+    /* Round Button Starting */ 
+    .btn-round .round {
+        border-radius: 50%;
+        padding: 0.1rem;
+    }
+
+    .btn-round a svg {
+        width: 2rem;
+        height: 2rem;
+        color: #fff;
+    }
+
+    /* Float Button Starting */ 
+    .btn-float {
+        color: #ffff;
+        width: 10rem;
+        height: 7.4rem;
+        box-shadow: 0.1rem 0.2rem 1.3rem 0.2rem #5a5a5aa1;
+    }
