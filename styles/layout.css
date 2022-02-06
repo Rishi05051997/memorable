@@ -178,7 +178,7 @@
 .imp-highlight-text {
     color:var(--primary-color);
     border: 1px solid transparent;
-    background: var(--primaryColorFaint);
+    background: var(--primary-color-faint);
 }
 .highlightMainText {
     color:var(--primary-color);
