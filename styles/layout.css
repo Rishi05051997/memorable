@@ -102,6 +102,8 @@
     height: 5rem;
     width:5rem;
 }
+
+
 /* Aside For Entire Project */
 .aside {
     padding: var(--pad-xxl) var(--pad-xxl) 0 0;
@@ -205,6 +207,10 @@
 .main-content-description--list {
     padding-left: 4rem;
     line-height: 1.6;
+}
+.code-snippet iframe {
+    width:100%;
+    height: auto;
 }
 
 
