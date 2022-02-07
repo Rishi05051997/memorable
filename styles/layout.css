@@ -94,6 +94,10 @@
 .mobile_menu li {
     width: 5%;
 }
+.img_logo {
+    width:5rem;
+    height:5rem;
+}
 /* Aside For Entire Project */
 .aside {
     padding: var(--pad-xxl) var(--pad-xxl) 0 0;
