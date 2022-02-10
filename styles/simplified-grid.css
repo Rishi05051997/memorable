@@ -1,0 +1,90 @@
+/*
+    Author: Vrushabh Dhatrak
+    Release: 0.1
+    Description : Simplified Grid CSS file.
+*/
+/* Grid System */
+/******  Col based Grid System  ********/
+.grid-row {
+    display: flex;
+    flex-direction: row;
+}
+.grid-column {
+    display: flex;
+    flex-direction: column;
+}
+.grid {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(12, [col] 1fr);
+    grid-template-rows: repeat(auto, [row] auto);
+    grid-gap: 1em;
+    grid-row-gap: 15px;
+}
+ 
+.col {
+  background: #eee;
+  text-transform: uppercase;
+  padding: 1em;
+  font-size: 14px;
+  
+ }
+ 
+/* Three Column Based Grid System */
+
+.col-sm-1 {
+  grid-column: col / span 3;
+  grid-row: row;
+ }
+
+.col-sm-2 {
+  grid-column: col 4 / span 3;
+  grid-row: row;
+ }
+
+.col-sm-3 {
+  grid-column: col 7 / span 3;
+  grid-row: row;
+ }
+
+.col-sm-4 {
+  grid-column: col 10 / span 3;
+  grid-row: row;
+ }
+
+/* Four Column Based Grid System */
+ 
+.col-md-1 {
+  grid-column: col / span 4;
+  grid-row: row;
+ }
+
+.col-md-2 {
+  grid-column: col 5 / span 4;
+  grid-row: row;
+ }
+
+.col-md-3 {
+  grid-column: col 9 / span 4;
+  grid-row: row;
+ }
+
+/* Six Column Based Grid System */
+
+.col-xl-1 {
+  grid-column: col  / span 6;
+  grid-row: row;
+ }
+
+.col-xl-2 {
+  grid-column: col 7 / span 12;
+  grid-row: row;
+ }
+  
+
+  
+    
+
+  
+
+
