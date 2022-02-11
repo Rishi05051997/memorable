@@ -94,10 +94,15 @@
 .mobile_menu li {
     width: 5%;
 }
-.img_logo {
-    width:5rem;
-    height:5rem;
+.code-snippet iframe {
+    width: 100%;
+    height: auto;
 }
+.img_logo {
+    height: 5rem;
+    width:5rem;
+}
+
 
 /* Aside For Entire Project */
 .aside {
