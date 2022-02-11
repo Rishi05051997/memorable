@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Vrushabh Dhatrak" />
+    <meta
+      name="description"
+      content="The Image component provides different states of Image responsiveness."
+    />
+    <link rel="stylesheet" href="./../../styles/main.css" />
+    <script src="./../../script/header.js" defer></script>
+    <script src="./../../script/navigation.js" defer></script>
+    <script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script>
+    <title>Image</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header_container">
+        <header class="sticky">
+          <img
+            class="img_logo"
+            src="./../../assets/image section/logo.png"
+            alt="header_logo"
+          />
+          <a href="#" class="logo head-2">Memorable-UI </a>
+          <div class="toggle" onclick="toggleMenu();"></div>
+          <ul class="menu hide">
+            <li>
+              <a
+                onclick="toggleMenu();"
+                class="text-1"
+                href="./../Avatar/avatar.html"
+                >Avatar</a
+              >
+            </li>
+            <li>
+              <a
+                onclick="toggleMenu();"
+                class="text-1"
+                href="./../Alert/Alert.html"
+                >Alert</a
+              >
+            </li>
+            <li>
+              <a
+                onclick="toggleMenu();"
+                class="text-1"
+                href="./../Badge/bagde.html"
+                >Badge</a
+              >
+            </li>
+            <li>
+              <a
+                onclick="toggleMenu();"
+                class="text-1"
+                href="./../Button/button.html"
+                >Button</a
+              >
+            </li>
+            <li>
+              <a
+                onclick="toggleMenu();"
+                class="text-1"
+                href="./../Card/card.html"
+                >Card</a
+              >
+            </li>
+            <li>
+              <a
+                onclick="toggleMenu();"
+                class="text-1"
+                href="./../Image/image.html"
+                >Image</a
+              >
+            </li>
+            <li>
+              <a
+                onclick="toggleMenu();"
+                class="text-1"
+                href="./../Input/input.html"
+                >Input</a
+              >
+            </li>
+            <li>
+              <a
+                onclick="toggleMenu();"
+                class="text-1"
+                href="./../Modal/modal.html"
+                >Modal</a
+              >
+            </li>
+            <li>
+              <a onclick="toggleMenu();" class="text-1" href="#">Navigation</a>
+            </li>
+            <li>
+              <a onclick="toggleMenu();" class="text-1" href="#">Rating</a>
+            </li>
+            <li>
+              <a
+                onclick="toggleMenu();"
+                class="text-1"
+                href="./../Simplified Grid/simplified-grid.html"
+                >Simplified Grid</a
+              >
+            </li>
+            <li>
+              <a
+                onclick="toggleMenu();"
+                class="text-1"
+                href="./../Typography/typography.html"
+                >Typography</a
+              >
+            </li>
+          </ul>
+          <ul class="menu left_auto">
+            <li><a class="text-3">Documentation</a></li>
+            <div class="btn-round">
+              <button class="btn-primary xl-bdr-radius pad-xs">
+                <a href="https://www.github.com/">
+                  <span
+                    class="iconify"
+                    data-icon="akar-icons:github-fill"
+                  ></span>
+                </a>
+              </button>
+            </div>
+          </ul>
+        </header>
+      </div>
+      <aside class="aside">
+        <div class="side-list">
+          <ul class="text-3">
+            <h2 class="text-4 mar-md mar-y-4 imp-highlight-text">
+              Getting Started
+            </h2>
+            <li class="pad-xs aside-list list-type-none">
+              <span class="iconify" data-icon="carbon:user-avatar"></span>
+              <a
+                class="btn-primary-outline-non deco-none"
+                href="./../../components/Avatar/avatar.html"
+                >Avatar</a
+              >
+            </li>
+            <li class="pad-xs list-type-none">
+              <span
+                class="iconify"
+                data-icon="eva:alert-triangle-outline"
+              ></span>
+              <a
+                class="btn-primary-outline-non deco-none"
+                href="./../../components/Alert/Alert.html"
+                >Alert</a
+              >
+            </li>
+            <li class="pad-xs list-type-none">
+              <span class="iconify" data-icon="fluent:badge-20-filled"></span>
+              <a
+                class="btn-primary-outline-non deco-none"
+                href="./../../components/Badge/bagde.html"
+                >Badge</a
+              >
+            </li>
+            <li class="pad-xs list-type-none">
+              <span class="iconify" data-icon="dashicons:button"></span>
+              <a
+                class="btn-primary-outline-non deco-none"
+                href="./../../components/Button/button.html"
+                >Button</a
+              >
+            </li>
+            <li class="pad-xs list-type-none">
+              <span class="iconify" data-icon="charm:cards"></span>
+              <a
+                class="btn-primary-outline-non deco-none"
+                href="./../../components/Card/card.html"
+                >Card</a
+              >
+            </li>
+            <li class="pad-xs list-type-none">
+              <span class="iconify" data-icon="bi:file-earmark-image"></span>
+              <a
+                class="btn-primary-outline-non deco-none"
+                href="./../../components/Image/image.html"
+                >Image</a
+              >
+            </li>
+            <li class="pad-xs list-type-none">
+              <span class="iconify" data-icon="whh:html"></span>
+              <a
+                class="btn-primary-outline-non deco-none"
+                href="./../../components/Input/input.html"
+                >Input</a
+              >
+            </li>
+            <li class="pad-xs list-type-none">
+              <span class="iconify" data-icon="vaadin:modal-list"></span>
+              <a
+                class="btn-primary-outline-non deco-none"
+                href="./../../components/Modal/modal.html"
+                >Modal</a
+              >
+            </li>
+            <li class="pad-xs list-type-none">
+              <span
+                class="iconify"
+                data-icon="fluent:navigation-16-regular"
+              ></span>
+              <a class="btn-primary-outline-non deco-none" href="#"
+                >Navigation</a
+              >
+            </li>
+            <li class="pad-xs list-type-none">
+              <span class="iconify" data-icon="ic:twotone-star-rate"></span>
+              <a class="btn-primary-outline-non deco-none" href="#">Rating</a>
+            </li>
+            <li class="pad-xs list-type-none">
+              <span class="iconify" data-icon="bi:grid-1x2"></span>
+              <a
+                class="btn-primary-outline-non deco-none"
+                href="./../../components/Simplified Grid/simplified-grid.html"
+                >Simplified Grid</a
+              >
+            </li>
+            <li class="pad-xs list-type-none">
+              <span class="iconify" data-icon="octicon:typography-24"></span>
+              <a
+                class="btn-primary-outline-non deco-none"
+                href="./../../components/Typography/typography.html"
+                >Typography</a
+              >
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <div class="main-content content-wrap">
+        <div class="text-5 highlightMainText">Image</div>
+        <hr class="mar-y-3" />
+        <p class="mar-y-2 text-3">
+          The Image component provides different states of Image responsiveness.
+        </p>
+        <div class="main-content-subblock">
+          <p class="text-4 mar-y-4 highlightMainText">
+            Image (Landscape-oriented)
+          </p>
+          <p class="text-3 mar-y-2">
+            Image in landscape mode means width of the image is more than height
+            if we want to round that image then rounding of such image is
+            somewhat difficult. So if user wants circular such kind of image
+            then only apply
+            <span class="imp-highlight-text sm-bdr-radius"
+              >circular--landscape</span
+            >
+            class on parent div of img tag
+          </p>
+
+          <p class="text-4 mar-y-4 highlightMainText">
+            Image (Portrait-oriented)
+          </p>
+          <p class="text-3 mar-y-2">
+            Image in Portrait mode means height of the image is more than width
+            if we want to round that image then rounding of such image is
+            somewhat difficult. So if user wants circular such kind of image
+            then only apply
+            <span class="imp-highlight-text sm-bdr-radius"
+              >circular--portrait</span
+            >
+            on parent div of img tag
+          </p>
+
+          <p class="text-4 mar-y-4 highlightMainText">Image (Square)</p>
+          <p class="text-3 mar-y-2">
+            User want to round a square image then only apply
+            <span class="imp-highlight-text sm-bdr-radius"
+              >circular--square</span
+            >
+            on parent div of img tag
+          </p>
+          <p class="text-3 mar-y-2 highlightMainText">Example</p>
+          <div class="basic_container img_cont mar-y-2 pad-md">
+            <div class="img_box">
+              <h4 class="text-3 highlightMainText">
+                Image Round <br />
+                (Landscape-oriented)
+              </h4>
+              <div class="circular--landscape">
+                <img src="./../../assets/image section/image-1.jpg" />
+              </div>
+            </div>
+
+            <div class="img_box">
+              <h4 class="text-3 highlightMainText">
+                Image Round <br />
+                (Portrait-oriented)
+              </h4>
+              <div class="circular--portrait">
+                <img src="./../../assets/image section/portrait.jpg" />
+              </div>
+            </div>
+
+            <div class="img_box">
+              <h4 class="text-3 highlightMainText">
+                Image Round <br />
+                (Square)
+              </h4>
+              <div class="circular--square">
+                <img src="./../../assets/image section/image-3.jpg" />
+              </div>
+            </div>
+          </div>
+          <div class="code-snippet">
+            <iframe
+              class="mar-y-2"
+              src="https://www.thiscodeworks.com/embed/6200ac544dd44f0015f3cd2a"
+              frameborder="0"
+            ></iframe>
+          </div>
+          <p class="text-4 mar-y-4 highlightMainText">Basic Responsive Image</p>
+          <p class="text-3 mar-y-2">
+            We have a div that acts as the container of an img element
+            <strong>HTML.</strong>The container has a width property of 96% so
+            that it has left and right margins.It has a max-width of 960px so
+            that the layout is not too wide on large screens. The
+            <img /> element within the container has a width property of 100% so
+            that its width is always equal to its container regardless of the
+            viewport’s size, thus making it responsive. The height is set to
+            auto so that the image proportionally scales. User only apply
+            <span class="imp-highlight-text sm-bdr-radius"
+              >basic_img_responsive</span
+            >
+            on parent div of img tag
+          </p>
+          <p class="text-3 mar-y-2 highlightMainText">Example</p>
+          <div class="basic_container img_cont mar-y-2 pad-md">
+            <div class="basic_img_responsive img_box">
+              <h4 class="text-3 highlightMainText">Basic Responsive Image</h4>
+              <img src="./../../assets/image section/image-1.jpg" />
+            </div>
+          </div>
+          <div class="code-snippet">
+            <iframe
+              class="mar-y-2"
+              src="https://www.thiscodeworks.com/embed/6200ace54dd44f0015f3cd2b"
+              frameborder="0"
+            ></iframe>
+          </div>
+          <p class="text-4 mar-y-4 highlightMainText">
+            Responsive Images in Columns
+          </p>
+          <p class="text-3 mar-y-2">
+            Sometimes we want images to display side-by-side in columns. For
+            example, image galleries often display thumbnails on a grid. To
+            achieve responsive images in columns, the only change we have to do
+            is lower the CSS width property and give img elements a display
+            property value of inline-block.
+          </p>
+          <p class="text-4 mar-y-2 highlightMainText">
+            Two-column Responsive Image Layout
+          </p>
+          <p class="text-3 mar-y-2">
+            For a two-column responsive image layout, we can set the CSS width
+            property to 48%, or roughly one-half of the container. The reason
+            it’s not set to 50% is to give the images margins on their sides.
+            HTML. User only apply
+            <span class="imp-highlight-text sm-bdr-radius"
+              >basic_img_responsive_two_column</span
+            >
+            on parent div of img tag.
+          </p>
+          <p class="text-3 mar-y-2 highlightMainText">Example</p>
+          <div class="basic_container img_cont mar-y-2 pad-md">
+            <div class="img_box">
+              <h4 class="text-3 highlightMainText">
+                Two-column Responsive Image Layout
+              </h4>
+              <div class="basic_img_responsive_two_column">
+                <img src="./../../assets/image section/image-1.jpg" />
+                <img src="./../../assets/image section/image-1.jpg" />
+              </div>
+            </div>
+          </div>
+          <div class="code-snippet">
+            <iframe
+              class="mar-y-2"
+              src="https://www.thiscodeworks.com/embed/6200ad6a4dd44f0015f3cd2c"
+              frameborder="0"
+            ></iframe>
+          </div>
+          <p class="text-4 mar-y-2 highlightMainText">
+            Three-column Responsive Image Layout
+          </p>
+          <p class="text-3 mar-y-2">
+            For a three-column responsive image layout, the concept is the same,
+            we just need to set the width property to about one-third of the
+            container’s width: 32%. <strong>HTML.</strong>User only apply
+            <span class="imp-highlight-text sm-bdr-radius"
+              >basic_img_responsive_three_column</span
+            >
+            on parent div of img tag.
+          </p>
+          <p class="text-3 mar-y-2 highlightMainText">Example</p>
+          <div class="basic_container img_cont mar-y-2 pad-md">
+            <div class="img_box">
+              <h4 class="text-3 highlightMainText">
+                Three-column Responsive Image Layout
+              </h4>
+              <div class="basic_img_responsive_three_column">
+                <img src="./../../assets/image section/image-1.jpg" />
+                <img src="./../../assets/image section/image-1.jpg" />
+                <img src="./../../assets/image section/image-1.jpg" />
+              </div>
+            </div>
+          </div>
+          <div class="code-snippet">
+            <iframe
+              class="mar-y-2"
+              src="https://www.thiscodeworks.com/embed/6200ae0e4dd44f0015f3cd2e"
+              frameborder="0"
+            ></iframe>
+          </div>
+          <p class="text-4 mar-y-2 highlightMainText">
+            Images with Conditional Breakpoints
+          </p>
+          <p class="text-3 mar-y-2">
+            It’s a good idea to have conditional breakpoints for responsive
+            images that are displayed in columns so that when the images get too
+            small, the columns will collapse. We’ll need media queries to make
+            this happen. In the following example, the images will display in
+            one column on smartphones, two columns on tablets, and four columns
+            on larger screens. User only apply
+            <span class="imp-highlight-text sm-bdr-radius"
+              >responsive_img_break_points</span
+            >
+            on parent div of img tag.
+          </p>
+          <p class="text-3 mar-y-2 highlightMainText">Example</p>
+          <div class="basic_container img_cont mar-y-2 pad-md">
+            <div class="img_box">
+              <h4 class="text-3 highlightMainText">
+                Images with Conditional Breakpoints
+              </h4>
+              <div class="responsive_img_break_points">
+                <img src="./../../assets/image section/image-1.jpg" />
+              </div>
+            </div>
+          </div>
+          <div class="code-snippet">
+            <iframe
+              class="mar-y-2"
+              src="https://www.thiscodeworks.com/embed/6200aea14dd44f0015f3cd30"
+              frameborder="0"
+            ></iframe>
+          </div>
+          <p class="text-4 mar-y-2 highlightMainText">
+            Full Width Responsive Image
+          </p>
+          <p class="text-3 mar-y-2">
+            To have responsive images that are always 100% of the viewport’s
+            size, we just need to remove the container’s max-width property
+            (which is 960px) and give it a width of 100%.User only apply
+            <span class="imp-highlight-text sm-bdr-radius"
+              >responsive_img_full_width</span
+            >
+            on parent div of img tag.
+          </p>
+          <p class="text-3 mar-y-2 highlightMainText">Example</p>
+          <div class="basic_container img_cont mar-y-2 pad-md">
+            <div class="responsive_img_full_width">
+              <img src="./../../assets/image section/image-1.jpg" />
+            </div>
+          </div>
+          <div class="code-snippet">
+            <iframe
+              class="mar-y-2"
+              src="https://www.thiscodeworks.com/embed/6200aef94dd44f0015f3cd31"
+              frameborder="0"
+            ></iframe>
+          </div>
+          <p class="text-4 mar-y-2 highlightMainText">
+            Image Responsiveness Using max-inline-size
+          </p>
+          <p class="text-3 mar-y-2">
+            We can also make responsive image using
+            <span class="imp-highlight-text sm-bdr-radius"
+              >max-inline-size:100%</span
+            >,<span class="imp-highlight-text sm-bdr-radius"
+              >block-size:auto</span
+            >
+            and
+            <span class="imp-highlight-text sm-bdr-radius">object-fit</span>
+            properties on img tag.
+          </p>
+          <p class="text-3 mar-y-2 highlightMainText">Example</p>
+          <div class="basic_container img_cont mar-y-2 pad-md">
+            <div class="custom_img_responsive">
+              <img src="./../../assets/image section/image-1.jpg" />
+            </div>
+          </div>
+          <div class="code-snippet">
+            <iframe
+              class="mar-y-2"
+              src="https://www.thiscodeworks.com/embed/6200af684dd44f0015f3cd34"
+              frameborder="0"
+            ></iframe>
+          </div>
+          <p class="text-4 mar-y-2 highlightMainText">Density Switching</p>
+          <p class="text-3 mar-y-2">
+            Basically the density for mobile screen or laptop screen would be
+            based on the
+            <span class="imp-highlight-text sm-bdr-radius"
+              >Pixels Per Inch (PPI).</span
+            >
+            So the average density is around
+            <span class="imp-highlight-text sm-bdr-radius">400 PPI </span>.
+          </p>
+          <p class="text-3 mar-y-2">
+            For density switching, we use
+            <span class="imp-highlight-text sm-bdr-radius">srcset</span>, as
+            never forget as fallback always give
+            <span class="imp-highlight-text sm-bdr-radius">src</span> attribte
+            on img tag for the browser whose doesn't support
+            <span class="imp-highlight-text sm-bdr-radius">srcset</span>
+          </p>
+          <p class="text-3 mar-y-2 highlightMainText">Example</p>
+          <div class="basic_container img_cont mar-y-2 pad-md">
+            <img
+              srcset="./../../assets/image section/image-1.jpg 1x,
+                          ./../../assets/image section/image-1.jpg 2x"
+              src="./../../assets/image section/image-1.jpg"
+              width="960"
+            />
+          </div>
+          <div class="code-snippet">
+            <iframe
+              class="mar-y-2"
+              src="https://www.thiscodeworks.com/embed/6200afeb4dd44f0015f3cd35"
+              style="width: 100%; height: 164px"
+              frameborder="0"
+            ></iframe>
+          </div>
+          <p class="text-4 mar-y-2 highlightMainText">Resolution Switching</p>
+          <p class="text-3 mar-y-2">
+            In Case of resolution, there can be multiple resolutions that can be
+            used. Based on differen resolutions, we can used different images.
+            <span class="imp-highlight-text sm-bdr-radius">100W 200W</span>
+            means actual or intrensic width of an image
+          </p>
+          <span class="text-3 mar-y-2 imp-highlight-text sm-bdr-radius"
+            >srcset="https://picsum.photos/100 100W, https://picsum.photos/200
+            200W"
+          </span>
+          <p class="text-3 mar-y-2">
+            it is telling the browser that as we know every image has default
+            size but now we put it insize a box or div then based on the
+            container, we can change the size but by default we always inspect
+            that then inspector always tell us correct size of an Image.
+          </p>
+          <span class="text-3 mar-y-2 imp-highlight-text sm-bdr-radius"
+            >sizes="(min-width:600px) 200px, 600px"
+          </span>
+          <p class="text-3 mar-y-2">
+            Basically we are telling the browser before hand itself, when we
+            have min-width of 600px, then the box which contains the image is of
+            size 200px, otherwise by default size of an image is 600px
+          </p>
+          <p class="text-3 mar-y-2 highlightMainText">Example</p>
+          <div class="basic_container img_cont mar-y-2 pad-md">
+            <img
+              srcset="https://picsum.photos/100 100W,
+                           https://picsum.photos/200 200W"
+              src="https://picsum.photos/600"
+              sizes="(min-width:600px) 200px, 600px"
+            />
+          </div>
+          <div class="code-snippet">
+            <iframe
+              class="mar-y-2"
+              src="https://www.thiscodeworks.com/embed/6200b06c4dd44f0015f3cd36"
+              style="width: 100%; height: 242px"
+              frameborder="0"
+            ></iframe>
+          </div>
+          <p class="text-4 mar-y-2 highlightMainText">Art Direction</p>
+          <p class="text-3 mar-y-2">
+            Let's say we are on same mobile device which is having same density
+            & same resolution but the device has two modes i.e.., landscape mode
+            & portrait mode. So one of the mode we need to show smaller image &
+            one of the mode we need to show larger image in such case we need
+            switching of images. So for different screen sizes we need to change
+            image itself.
+          </p>
+          <p class="text-3 mar-y-2">
+            <span class="text-3 mar-y-2 imp-highlight-text sm-bdr-radius"
+              >Picture</span
+            >
+            tag is very powerful, we are just telling the browser that which
+            image should be rendered.
+          </p>
+          <p class="text-3 mar-y-2 highlightMainText">Example</p>
+          <div class="basic_container img_cont mar-y-2 pad-md">
+            <picture>
+              <source
+                srcset="https://picsum.photos/300/200 1x"
+                media="(min-width:600px)"
+              />
+              <img srcset="https://picsum.photos/600/400 1x" />
+            </picture>
+          </div>
+          <div class="code-snippet">
+            <iframe
+              class="mar-y-2"
+              src="https://www.thiscodeworks.com/embed/6200b0ea4dd44f0015f3cd39"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

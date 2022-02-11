@@ -1,0 +1,139 @@
+/*
+    Author: Vrushabh Dhatrak
+    Release: 0.1
+    Description : Image Component Css
+*/
+/* Image Section Starting Here */
+/* Landscape Mode Image Round Starting Here */
+.circular--landscape { 
+    display: inline-block; 
+    position: relative; 
+    width: 20rem; 
+    height: 20rem; 
+    overflow: hidden; 
+    border-radius: 50%; 
+} 
+.circular--landscape img { 
+    width: auto; 
+    height: 100%; 
+    margin-left: -8rem; 
+}
+
+/* Portrait Mode Image Round Starting Here */
+.circular--portrait { 
+    position: relative; 
+    width: 20rem; 
+    height: 20rem; 
+    overflow: hidden; 
+    border-radius: 50%; 
+} 
+.circular--portrait img { 
+    width: 100%; 
+    height: auto; 
+}
+
+/* Square Mode Image Round Starting Here */
+.circular--square { 
+    position: relative; 
+    width: 20rem; 
+    height: 20rem; 
+    overflow: hidden; 
+    border-radius: 50%; 
+} 
+.circular--square img { 
+    width: 100%; 
+    height: auto; 
+}
+
+
+/* Image Responsive Section Starting Here */
+.basic_img_responsive { 
+    width: 96%; 
+    max-width: 48rem;
+    margin: 0; 
+} 
+
+.basic_img_responsive img { 
+    width: 100%; 
+    height: auto; 
+}
+.basic_img_responsive_two_column {
+    width: 96%; 
+    max-width: 48rem;
+    margin: 0; 
+}
+.basic_img_responsive_two_column  img { 
+    height: 32rem;
+    width: 48%;
+    display: inline-block; 
+}
+.basic_img_responsive_three_column {
+    width: 96%; 
+    max-width: 48rem;
+    margin: 0; 
+}
+.basic_img_responsive_three_column  img { 
+    height: 32rem;
+    width: 32%; 
+    display: inline-block; 
+}
+/* Image Responsive With Breakpoint Starting Here */
+/* For small devices (e.g. smartphones) */ 
+.responsive_img_break_points {
+    width: 96%; 
+    max-width: 96rem;
+    margin: 0; 
+}
+.responsive_img_break_points img { 
+    max-width: 100%; 
+    display: inline-block; 
+} 
+
+/* For large devices (e.g.desktops) */ 
+@media (max-width: 760px) { 
+    .responsive_img_break_points img { 
+        max-width: 55%; 
+    } 
+}
+
+/* For medium devices (e.g. tablets) */ 
+@media (max-width: 420px) { 
+    .responsive_img_break_points  img { 
+        max-width: 48%; 
+    } 
+} 
+
+/* Image Responsive Full Width Starting Here */
+.responsive_img_full_width {
+    width: 100%;
+}
+.responsive_img_full_width img {
+    width: 100%;
+}
+
+
+.custom_img_responsive {
+    width: 100%;
+    height: auto;
+}
+
+.custom_img_responsive img {
+    max-inline-size: 100%;
+    block-size: auto;
+    object-fit:cover;
+}
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  
+
+

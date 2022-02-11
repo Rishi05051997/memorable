@@ -9,11 +9,6 @@
     flex-direction: row;
     justify-content: space-around;
 }
-.basic_container img {
-    margin: 0 auto;
-    margin: 1rem auto;
-    display: flex;
-}
 .badge_div {
     position: relative;
     
