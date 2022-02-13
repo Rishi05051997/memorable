@@ -1,8 +1,3 @@
-/*
-    Author: Vrushabh Dhatrak
-    Release: 0.1
-    Description : Input Component Css
-*/
 /* Input Starting Here */
 /* First Input Field Starting Here */
 .custom_input_one {
@@ -28,6 +23,11 @@
     border-color: var(--primary-color);
 
 }
+.icons {
+    position: absolute;
+    top: 32%;
+    right: 2%;
+}
 
 .input_field:focus{
     outline: 2px solid var(--primary-color);
@@ -47,10 +47,11 @@
 /* What does below code mean if user click on input field then label will move upwards & if user enter some text and click outside then label will not come to its original position it remains its position  */
 .input_field:focus ~ .input__label,
 .input_field:not(:placeholder-shown).input_field:not(:focus)~.input__label{
-    top:-0.5rem;
+    top:-0.1rem;
     font-size:0.8rem;
     left: 0.8rem;
     border-color: var(--primary-color);
+    background: transparent;
 }
 
 
@@ -77,10 +78,11 @@
 /* What does below code mean if user click on input field then label will move upwards & if user enter some text and click outside then label will not come to its original position it remains its position  */
 .input_field_error:focus ~ .input__label,
 .input_field_error:not(:placeholder-shown).input_field_error:not(:focus)~.input__label{
-    top:-0.5rem;
+    top:-0.1rem;
     font-size:0.8rem;
     left: 0.8rem;
     border-color: var(--danger-color);
+    background: transparent;
 }
 
 /* First Input Field With Error State Starting Here */
@@ -104,10 +106,11 @@
 /* What does below code mean if user click on input field then label will move upwards & if user enter some text and click outside then label will not come to its original position it remains its position  */
 .input_field_success:focus ~ .input__label,
 .input_field_success:not(:placeholder-shown).input_field_success:not(:focus)~.input__label{
-    top:-0.5rem;
+    top:-0.1rem;
     font-size:0.8rem;
     left: 0.8rem;
     border-color: var(--success-color);
+    background: transparent;
 }
 
 /*New Input Field Variety Start*/
