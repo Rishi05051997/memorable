@@ -11,6 +11,8 @@
 }
 .badge_div {
     position: relative;
+    display: flex;
+    flex-direction: column;
     
 }
 .onlineBadge {
@@ -37,7 +39,7 @@
     right: 0;
 }
 .badge_div svg {
-    height: 5.1rem;
+    height: 3rem;
     width: auto;
 }
 .notifyBadge {
@@ -46,17 +48,27 @@
     border: 0.2rem solid var(--primary-color);
     border-radius: 50%;
     position: absolute;
-    top: 0;
-    right: 0.4rem;
+    top: -0.9rem;
+    right: -1.3px;
     color: #ffff;
     background: var(--primary-color);
 }
   
 .notifyBadge span {
-    font-size: 1.2rem;
+    font-size: 1rem;
     position: relative;
-    left: 0.1rem;
-    top: 0.1rem;
+    left: 0.3rem;
+    top: 0.3rem;
     color: #fff;
-    font-weight:700;
+    font-weight: 700;
 }
+
+    
+
+    
+
+    
+
+  
+
+
