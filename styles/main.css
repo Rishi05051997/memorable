@@ -1,8 +1,3 @@
-/*
-    Author: Vrushabh Dhatrak
-    Release: 0.1
-    Description : main file used for all files.
-*/
 /*************** Component Imports ***************/
 @import "./variables.css";
 @import "./typography.css";
@@ -20,6 +15,11 @@
 @import "./reset.css";
 @import "./simplified-grid.css";
 @import "./tab.css";
+@import "./utils.css";
+
+
+
+
 
 /*************** Project Initials ***************/
 

@@ -1,0 +1,86 @@
+/*
+    Author: Vrushabh Dhatrak
+    Release: 0.1
+    Description :Utility Classes for entire Project
+*/
+/* Modal Container Layout classe Starting Here */
+.modal_cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* Button Layout container Starting Here */
+.button_cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* Button Layout container Starting Here */
+.alert_cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid var(--primary-color);
+}
+/* Avatar Starting Here */
+.avt_cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
+
+/* Image Container Generic Starting Here */
+.img_cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.img_box {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 1rem 0 0;
+    width: 26rem;
+    align-items:center;
+    text-align:center;
+}
+/* Generic Classes */
+.cursor_ {
+    cursor: pointer;
+}
+/******  Colors ********/
+.secondory-text {
+    color:var(--secondory-text-color)
+}
+.bold {
+    font-weight:600;
+}
+.imp-highlight-text {
+    color:var(--primary-color);
+    border: 1px solid transparent;
+    background: var(--primary-color-faint);
+}
+.highlightMainText {
+    color:var(--primary-color);
+}
+/* Utility Class system */
+.hide {
+    opacity: 0;
+    pointer-events: none;
+}
+.deco-none {
+    text-decoration: none;
+}
+.list-type-none {
+    list-style-type: none;
+}
+.main-content-description--list {
+    padding-left: 4rem;
+    line-height: 1.6;
+}
+.code-snippet iframe {
+    width: 100%;
+    height: auto;
+}
