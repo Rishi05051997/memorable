@@ -1,29 +1,6 @@
 /*************** External Imports ***************/
-@font-face{
-    font-family:"futura-pt-bold";
-    src:url("./../assets/fonts/FuturaPT/FuturaPTBold.otf") format("woff"),
-    url("./../assets/fonts/FuturaPT/FuturaPTBold.otf") format("opentype"),
-    url("./../assets/fonts/FuturaPT/FuturaPTBold.otf") format("truetype");
-}
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Nunito:wght@200;300;400;600;700;900&family=Poppins:wght@500&display=swap');
 
-@font-face{
-    font-family:"futura-pt-demi";
-    src:url("./../assets/fonts/FuturaPT/FuturaPTDemi.otf") format("woff"),
-    url("./../assets/fonts/FuturaPT/FuturaPTDemi.otf") format("opentype"),
-    url("./../assets/fonts/FuturaPT/FuturaPTDemi.otf") format("truetype");
-}
-@font-face{
-    font-family:"futura-pt-light";
-    src:url("./../assets/fonts/FuturaPT/FuturaPTLight.otf") format("woff"),
-    url("./../assets/fonts/FuturaPT/FuturaPTLight.otf") format("opentype"),
-    url("./../assets/fonts/FuturaPT/FuturaPTLight.otf") format("truetype");
-}
-@font-face{
-    font-family:"futura-pt-cond-medium";
-    src:url("./../assets/fonts/FuturaPT/FuturaPTCondMedium.otf") format("woff"),
-    url("./../assets/fonts/FuturaPT/FuturaPTCondMedium.otf") format("opentype"),
-    url("./../assets/fonts/FuturaPT/FuturaPTCondMedium.otf") format("truetype");
-}
 
 :root {
     --primary-color: #3b82f6;
@@ -61,6 +38,7 @@
     --pinkCardBadge-color:#ee2b8b;
     --blueCardBadge-color:#00adee;
     --greenCardBadge-color:#b4bd00;
+    --greyBadge-color:#65656ef3;
     
 
 
@@ -104,9 +82,9 @@
     --lgborder-radius:1.5rem;
     --xl-border-radius:50%;
 
-    --futuraPTBold:"futura-pt-bold";
-    --futuraPTDemi:"futura-pt-demi";
-    --futuraPTMedium:"futura-pt-medium";
-    --futuraPTLight:"futura-pt-light";
+    --futuraPTBold:'Nunito', sans-serif;
+    --futuraPTDemi:'Nunito', sans-serif;
+    --futuraPTMedium:'Nunito', sans-serif;
+    --futuraPTLight:'Nunito', sans-serif;
 
 }
