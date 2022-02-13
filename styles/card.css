@@ -69,6 +69,11 @@
     display: flex;
     justify-content: space-between;
     cursor: pointer;
+    align-items: center;
+}
+
+.card_footer svg:hover {
+    color: var(--primary-color);
 }
 .card_margin_auto_left{
     display:flex;
@@ -252,5 +257,8 @@
 
 .badge.green {
     background: var(--greenCardBadge-color);;
+}
+.badge.grey {
+    background: var(--greyBadge-color);
 }
 
