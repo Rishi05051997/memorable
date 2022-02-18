@@ -12,226 +12,18 @@
     <link rel="stylesheet" href="./../../styles/main.css" />
     <script src="./../../script/header.js" defer></script>
     <script src="./../../script/navigation.js" defer></script>
+    <script src="./../../script/navELements.js" defer></script>
+    <script src="./../../script/asideElements.js" defer></script>
     <script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script>
     <title>Image</title>
   </head>
   <body>
     <div class="container">
-      <div class="header_container">
-        <header class="sticky">
-          <img
-            class="img_logo"
-            src="./../../assets/image section/logo.png"
-            alt="header_logo"
-          />
-          <a href="#" class="logo head-2">Memorable-UI </a>
-          <div class="toggle" onclick="toggleMenu();"></div>
-          <ul class="menu hide">
-            <li>
-              <a
-                onclick="toggleMenu();"
-                class="text-1"
-                href="./../Avatar/avatar.html"
-                >Avatar</a
-              >
-            </li>
-            <li>
-              <a
-                onclick="toggleMenu();"
-                class="text-1"
-                href="./../Alert/Alert.html"
-                >Alert</a
-              >
-            </li>
-            <li>
-              <a
-                onclick="toggleMenu();"
-                class="text-1"
-                href="./../Badge/bagde.html"
-                >Badge</a
-              >
-            </li>
-            <li>
-              <a
-                onclick="toggleMenu();"
-                class="text-1"
-                href="./../Button/button.html"
-                >Button</a
-              >
-            </li>
-            <li>
-              <a
-                onclick="toggleMenu();"
-                class="text-1"
-                href="./../Card/card.html"
-                >Card</a
-              >
-            </li>
-            <li>
-              <a
-                onclick="toggleMenu();"
-                class="text-1"
-                href="./../Image/image.html"
-                >Image</a
-              >
-            </li>
-            <li>
-              <a
-                onclick="toggleMenu();"
-                class="text-1"
-                href="./../Input/input.html"
-                >Input</a
-              >
-            </li>
-            <li>
-              <a
-                onclick="toggleMenu();"
-                class="text-1"
-                href="./../Modal/modal.html"
-                >Modal</a
-              >
-            </li>
-            <li>
-              <a onclick="toggleMenu();" class="text-1" href="#">Navigation</a>
-            </li>
-            <li>
-              <a onclick="toggleMenu();" class="text-1" href="#">Rating</a>
-            </li>
-            <li>
-              <a
-                onclick="toggleMenu();"
-                class="text-1"
-                href="./../Simplified Grid/simplified-grid.html"
-                >Simplified Grid</a
-              >
-            </li>
-            <li>
-              <a
-                onclick="toggleMenu();"
-                class="text-1"
-                href="./../Typography/typography.html"
-                >Typography</a
-              >
-            </li>
-          </ul>
-          <ul class="menu left_auto">
-            <li><a class="text-3">Documentation</a></li>
-            <div class="btn-round">
-              <button class="btn-primary xl-bdr-radius pad-xs">
-                <a href="https://www.github.com/">
-                  <span
-                    class="iconify"
-                    data-icon="akar-icons:github-fill"
-                  ></span>
-                </a>
-              </button>
-            </div>
-          </ul>
-        </header>
-      </div>
-      <aside class="aside">
-        <div class="side-list">
-          <ul class="text-3">
-            <h2 class="text-3 mar-lg imp-highlight-text">Getting Started</h2>
-            <li class="pad-xs aside-list list-type-none">
-              <span class="iconify" data-icon="carbon:user-avatar"></span>
-              <a
-                class="btn-primary-outline-non deco-none"
-                href="./../../components/Avatar/avatar.html"
-                >Avatar</a
-              >
-            </li>
-            <li class="pad-xs list-type-none">
-              <span
-                class="iconify"
-                data-icon="eva:alert-triangle-outline"
-              ></span>
-              <a
-                class="btn-primary-outline-non deco-none"
-                href="./../../components/Alert/Alert.html"
-                >Alert</a
-              >
-            </li>
-            <li class="pad-xs list-type-none">
-              <span class="iconify" data-icon="fluent:badge-20-filled"></span>
-              <a
-                class="btn-primary-outline-non deco-none"
-                href="./../../components/Badge/bagde.html"
-                >Badge</a
-              >
-            </li>
-            <li class="pad-xs list-type-none">
-              <span class="iconify" data-icon="dashicons:button"></span>
-              <a
-                class="btn-primary-outline-non deco-none"
-                href="./../../components/Button/button.html"
-                >Button</a
-              >
-            </li>
-            <li class="pad-xs list-type-none">
-              <span class="iconify" data-icon="charm:cards"></span>
-              <a
-                class="btn-primary-outline-non deco-none"
-                href="./../../components/Card/card.html"
-                >Card</a
-              >
-            </li>
-            <li class="pad-xs list-type-none">
-              <span class="iconify" data-icon="bi:file-earmark-image"></span>
-              <a
-                class="btn-primary-outline-non deco-none"
-                href="./../../components/Image/image.html"
-                >Image</a
-              >
-            </li>
-            <li class="pad-xs list-type-none">
-              <span class="iconify" data-icon="whh:html"></span>
-              <a
-                class="btn-primary-outline-non deco-none"
-                href="./../../components/Input/input.html"
-                >Input</a
-              >
-            </li>
-            <li class="pad-xs list-type-none">
-              <span class="iconify" data-icon="vaadin:modal-list"></span>
-              <a
-                class="btn-primary-outline-non deco-none"
-                href="./../../components/Modal/modal.html"
-                >Modal</a
-              >
-            </li>
-            <li class="pad-xs list-type-none">
-              <span
-                class="iconify"
-                data-icon="fluent:navigation-16-regular"
-              ></span>
-              <a class="btn-primary-outline-non deco-none" href="#"
-                >Navigation</a
-              >
-            </li>
-            <li class="pad-xs list-type-none">
-              <span class="iconify" data-icon="ic:twotone-star-rate"></span>
-              <a class="btn-primary-outline-non deco-none" href="#">Rating</a>
-            </li>
-            <li class="pad-xs list-type-none">
-              <span class="iconify" data-icon="bi:grid-1x2"></span>
-              <a
-                class="btn-primary-outline-non deco-none"
-                href="./../../components/Simplified Grid/simplified-grid.html"
-                >Simplified Grid</a
-              >
-            </li>
-            <li class="pad-xs list-type-none">
-              <span class="iconify" data-icon="octicon:typography-24"></span>
-              <a
-                class="btn-primary-outline-non deco-none"
-                href="./../../components/Typography/typography.html"
-                >Typography</a
-              >
-            </li>
-          </ul>
-        </div>
-      </aside>
+      <!-- Header starting here -->
+      <div class="header-container"></div>
+      <!-- Aside starting here -->
+      <aside class="aside"></aside>
+      <!-- Image Main Content starting here -->
       <div class="main-content content-wrap">
         <div class="text-5 highlightMainText">Image</div>
         <hr class="mar-y-3" />
@@ -325,13 +117,13 @@
             viewport’s size, thus making it responsive. The height is set to
             auto so that the image proportionally scales. User only apply
             <span class="imp-highlight-text sm-bdr-radius"
-              >basic_img_responsive</span
+              >basic-img-responsive</span
             >
             on parent div of img tag
           </p>
           <p class="text-3 mar-y-2 highlightMainText">Example</p>
           <div class="basic_container img_cont mar-y-2 pad-md">
-            <div class="basic_img_responsive img_box">
+            <div class="basic-img-responsive img_box">
               <h4 class="text-3 highlightMainText">Basic Responsive Image</h4>
               <img src="./../../assets/image section/image-1.jpg" />
             </div>
@@ -362,7 +154,7 @@
             it’s not set to 50% is to give the images margins on their sides.
             HTML. User only apply
             <span class="imp-highlight-text sm-bdr-radius"
-              >basic_img_responsive_two_column</span
+              >basic-img-responsive-two-column</span
             >
             on parent div of img tag.
           </p>
@@ -372,7 +164,7 @@
               <h4 class="text-3 highlightMainText">
                 Two-column Responsive Image Layout
               </h4>
-              <div class="basic_img_responsive_two_column">
+              <div class="basic-img-responsive-two-column">
                 <img src="./../../assets/image section/image-1.jpg" />
                 <img src="./../../assets/image section/image-1.jpg" />
               </div>
@@ -393,7 +185,7 @@
             we just need to set the width property to about one-third of the
             container’s width: 32%. <strong>HTML.</strong>User only apply
             <span class="imp-highlight-text sm-bdr-radius"
-              >basic_img_responsive_three_column</span
+              >basic-img-responsive-three-column</span
             >
             on parent div of img tag.
           </p>
@@ -403,7 +195,7 @@
               <h4 class="text-3 highlightMainText">
                 Three-column Responsive Image Layout
               </h4>
-              <div class="basic_img_responsive_three_column">
+              <div class="basic-img-responsive-three-column">
                 <img src="./../../assets/image section/image-1.jpg" />
                 <img src="./../../assets/image section/image-1.jpg" />
                 <img src="./../../assets/image section/image-1.jpg" />
@@ -428,7 +220,7 @@
             one column on smartphones, two columns on tablets, and four columns
             on larger screens. User only apply
             <span class="imp-highlight-text sm-bdr-radius"
-              >responsive_img_break_points</span
+              >responsive-img-break-points</span
             >
             on parent div of img tag.
           </p>
@@ -438,7 +230,7 @@
               <h4 class="text-3 highlightMainText">
                 Images with Conditional Breakpoints
               </h4>
-              <div class="responsive_img_break_points">
+              <div class="responsive-img-break-points">
                 <img src="./../../assets/image section/image-1.jpg" />
               </div>
             </div>
@@ -458,13 +250,13 @@
             size, we just need to remove the container’s max-width property
             (which is 960px) and give it a width of 100%.User only apply
             <span class="imp-highlight-text sm-bdr-radius"
-              >responsive_img_full_width</span
+              >responsive-img-full-width</span
             >
             on parent div of img tag.
           </p>
           <p class="text-3 mar-y-2 highlightMainText">Example</p>
           <div class="basic_container img_cont mar-y-2 pad-md">
-            <div class="responsive_img_full_width">
+            <div class="responsive-img-full-width">
               <img src="./../../assets/image section/image-1.jpg" />
             </div>
           </div>
@@ -491,7 +283,7 @@
           </p>
           <p class="text-3 mar-y-2 highlightMainText">Example</p>
           <div class="basic_container img_cont mar-y-2 pad-md">
-            <div class="custom_img_responsive">
+            <div class="custom-img-responsive">
               <img src="./../../assets/image section/image-1.jpg" />
             </div>
           </div>

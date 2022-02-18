@@ -41,99 +41,83 @@
     border-radius: 50%; 
 } 
 .circular--square img { 
-    width: 100%; 
+    width: 120rem; 
     height: auto; 
 }
 
 
 /* Image Responsive Section Starting Here */
-.basic_img_responsive { 
-    width: 96%; 
-    max-width: 48rem;
+/* Image Responsive In One Single Column */
+.basic-img-responsive { 
+    width: 120rem; 
     margin: 0; 
 } 
 
-.basic_img_responsive img { 
+.basic-img-responsive img { 
     width: 100%; 
     height: auto; 
 }
-.basic_img_responsive_two_column {
-    width: 96%; 
-    max-width: 48rem;
+/* Image Responsive In Two Column */
+.basic-img-responsive-two-column {
+    width: 120rem; 
     margin: 0; 
 }
-.basic_img_responsive_two_column  img { 
+.basic-img-responsive-two-column  img { 
     height: 32rem;
     width: 48%;
     display: inline-block; 
 }
-.basic_img_responsive_three_column {
-    width: 96%; 
-    max-width: 48rem;
+/* Image Responsive In Three Column */
+.basic-img-responsive-three-column {
+    width: 120rem; 
     margin: 0; 
 }
-.basic_img_responsive_three_column  img { 
+.basic-img-responsive-three-column  img { 
     height: 32rem;
     width: 32%; 
     display: inline-block; 
 }
 /* Image Responsive With Breakpoint Starting Here */
 /* For small devices (e.g. smartphones) */ 
-.responsive_img_break_points {
-    width: 96%; 
-    max-width: 96rem;
+.responsive-img-break-points {
+    width: 120rem; 
     margin: 0; 
 }
-.responsive_img_break_points img { 
+.responsive-img-break-points img { 
     max-width: 100%; 
     display: inline-block; 
 } 
 
 /* For large devices (e.g.desktops) */ 
 @media (max-width: 760px) { 
-    .responsive_img_break_points img { 
+    .responsive-img-break-points img { 
         max-width: 55%; 
     } 
 }
 
 /* For medium devices (e.g. tablets) */ 
 @media (max-width: 420px) { 
-    .responsive_img_break_points  img { 
+    .responsive-img-break-points  img { 
         max-width: 48%; 
     } 
 } 
 
 /* Image Responsive Full Width Starting Here */
-.responsive_img_full_width {
+.responsive-img-full-width {
     width: 100%;
 }
-.responsive_img_full_width img {
+.responsive-img-full-width img {
     width: 100%;
 }
 
-
-.custom_img_responsive {
+/* Custom Image Responsive  */
+.custom-img-responsive {
     width: 100%;
     height: auto;
 }
 
-.custom_img_responsive img {
+.custom-img-responsive img {
     max-inline-size: 100%;
     block-size: auto;
     object-fit:cover;
 }
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-  
-
-

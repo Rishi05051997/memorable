@@ -25,63 +25,56 @@
 .xxl-card-width {
     width: 60rem;
 }
-
-.card_cont {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    
-    
-}
-.container_card {
+/*******  Cards Container Starting Here *******/
+.container-card {
     background-color: #ffff;
     border-radius: 1rem;
     box-shadow: 1px 2px 1px 2px rgb(0 0 0 / 10%);
     position: relative;
 }
-.container_card:hover {
+.container-card:hover {
     box-shadow: 1px 5px 10px 3px rgba(150, 136, 136, 0.1);
 }
 
-.card_header {
+.card-header {
     position: relative;
 }
-.card_header .close_icon {
+.card-header .close-icon {
     position: absolute;
     top:5%;
     right:5%;
 }
-.header_row {
+.card-header-row {
     display: flex;
 }
-.card_img {
+.card-img {
     width: 100%;
     border-radius: 1rem 1rem 0 0;
 }
-.sub_card_header {
+.sub-card-header {
     position: absolute;
     bottom: 0rem;
     color: white;
     margin-left: 1.5rem;
 }
 
-.card_footer {
+.card-footer {
     display: flex;
     justify-content: space-between;
     cursor: pointer;
     align-items: center;
 }
 
-.card_footer svg:hover {
+.card-footer svg:hover {
     color: var(--primary-color);
 }
-.card_margin_auto_left{
+.card-margin-auto-left{
     display:flex;
     justify-content:flex-end;
 }
 
 /* Card Badge */
-.card_badge::before {
+.card-badge::before {
     position: absolute;
     top: 0.7rem;
     right: -2.2rem;
@@ -95,7 +88,7 @@
     border-left: 2.1rem solid var(--primary-color);
 }
   
-.card_badge::after {
+.card-badge::after {
     position: absolute;
     content: attr(data-label);
     top: 0.7rem;
@@ -109,10 +102,6 @@
     box-shadow: 0.4rem 0.4rem 1.5rem rgb(26 35 126 / 20%);
 }
 
-
-
-    
-    
 /* ================== Badge CSS ========================*/
 .badge {
     margin: 0;

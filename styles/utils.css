@@ -84,3 +84,37 @@
     width: 100%;
     height: auto;
 }
+
+.blck_ {
+    display: none;
+}
+
+/* flex classes */
+.flex-row {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-justify-content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column-justify-content-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 400px) {
+    .img_cont {
+        display: flex;
+        flex-direction: column;
+    }
+}

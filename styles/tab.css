@@ -1,0 +1,35 @@
+/*
+  Author: Vrushabh Dhatrak
+  Release: 0.1
+  Description : Tab Component Css
+*/
+/* Tab Starting here  */
+.tab-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.tab-container {
+    display: flex;
+}
+.tab {
+    cursor: pointer;
+    width: max-content;
+}
+.tab:hover{
+    background-color: var(--primary-color-faint);
+    color:var(--primary-color);
+}
+
+.tab:focus {
+    background-color: #fff;
+    border-bottom: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.tab_scrollable{
+    overflow-x: auto;
+    display: flex;
+    align-items: center;
+    width: 30rem;
+}

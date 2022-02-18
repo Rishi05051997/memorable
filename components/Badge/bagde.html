@@ -12,228 +12,17 @@
     <link rel="stylesheet" href="./../../styles/main.css" />
     <script src="./../../script/header.js" defer></script>
     <script src="./../../script/navigation.js" defer></script>
+    <script src="./../../script/navELements.js" defer></script>
+    <script src="./../../script/asideElements.js" defer></script>
     <script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script>
     <title>Badge</title>
   </head>
   <body>
     <div class="container">
       <!-- Header starting here -->
-      <div class="header_container">
-        <header class="sticky">
-          <img
-            class="img_logo"
-            src="./../../assets/image section/logo.png"
-            alt="header_logo"
-          />
-          <a href="#" class="logo head-2">Memorable-UI </a>
-          <div class="toggle" onclick="toggleMenu();"></div>
-          <ul class="menu hide">
-            <li>
-              <a
-                onclick="toggleMenu();"
-                class="text-1"
-                href="./../Avatar/avatar.html"
-                >Avatar</a
-              >
-            </li>
-            <li>
-              <a
-                onclick="toggleMenu();"
-                class="text-1"
-                href="./../Alert/Alert.html"
-                >Alert</a
-              >
-            </li>
-            <li>
-              <a
-                onclick="toggleMenu();"
-                class="text-1"
-                href="./../Badge/bagde.html"
-                >Badge</a
-              >
-            </li>
-            <li>
-              <a
-                onclick="toggleMenu();"
-                class="text-1"
-                href="./../Button/button.html"
-                >Button</a
-              >
-            </li>
-            <li>
-              <a
-                onclick="toggleMenu();"
-                class="text-1"
-                href="./../Card/card.html"
-                >Card</a
-              >
-            </li>
-            <li>
-              <a
-                onclick="toggleMenu();"
-                class="text-1"
-                href="./../Image/image.html"
-                >Image</a
-              >
-            </li>
-            <li>
-              <a
-                onclick="toggleMenu();"
-                class="text-1"
-                href="./../Input/input.html"
-                >Input</a
-              >
-            </li>
-            <li>
-              <a
-                onclick="toggleMenu();"
-                class="text-1"
-                href="./../Modal/modal.html"
-                >Modal</a
-              >
-            </li>
-            <li>
-              <a onclick="toggleMenu();" class="text-1" href="#">Navigation</a>
-            </li>
-            <li>
-              <a onclick="toggleMenu();" class="text-1" href="#">Rating</a>
-            </li>
-            <li>
-              <a
-                onclick="toggleMenu();"
-                class="text-1"
-                href="./../Simplified Grid/simplified-grid.html"
-                >Simplified Grid</a
-              >
-            </li>
-            <li>
-              <a
-                onclick="toggleMenu();"
-                class="text-1"
-                href="./../Typography/typography.html"
-                >Typography</a
-              >
-            </li>
-          </ul>
-          <ul class="menu left_auto">
-            <li><a class="text-3" onclick="toggleMenu();">Documentation</a></li>
-            <div class="btn-round">
-              <button class="btn-primary xl-bdr-radius pad-xs">
-                <a href="https://www.github.com/">
-                  <span
-                    class="iconify"
-                    data-icon="akar-icons:github-fill"
-                  ></span>
-                </a>
-              </button>
-            </div>
-          </ul>
-        </header>
-      </div>
+      <div class="header-container"></div>
       <!-- Aside starting here -->
-      <aside class="aside">
-        <div class="side-list">
-          <ul class="text-3">
-            <h2 class="text-3 mar-lg imp-highlight-text">Getting Started</h2>
-            <li class="pad-xs aside-list list-type-none">
-              <span class="iconify" data-icon="carbon:user-avatar"></span>
-              <a
-                class="btn-primary-outline-non deco-none"
-                href="./../../components/Avatar/avatar.html"
-                >Avatar</a
-              >
-            </li>
-            <li class="pad-xs list-type-none">
-              <span
-                class="iconify"
-                data-icon="eva:alert-triangle-outline"
-              ></span>
-              <a
-                class="btn-primary-outline-non deco-none"
-                href="./../../components/Alert/Alert.html"
-                >Alert</a
-              >
-            </li>
-            <li class="pad-xs list-type-none">
-              <span class="iconify" data-icon="fluent:badge-20-filled"></span>
-              <a
-                class="btn-primary-outline-non deco-none"
-                href="./../../components/Badge/bagde.html"
-                >Badge</a
-              >
-            </li>
-            <li class="pad-xs list-type-none">
-              <span class="iconify" data-icon="dashicons:button"></span>
-              <a
-                class="btn-primary-outline-non deco-none"
-                href="./../../components/Button/button.html"
-                >Button</a
-              >
-            </li>
-            <li class="pad-xs list-type-none">
-              <span class="iconify" data-icon="charm:cards"></span>
-              <a
-                class="btn-primary-outline-non deco-none"
-                href="./../../components/Card/card.html"
-                >Card</a
-              >
-            </li>
-            <li class="pad-xs list-type-none">
-              <span class="iconify" data-icon="bi:file-earmark-image"></span>
-              <a
-                class="btn-primary-outline-non deco-none"
-                href="./../../components/Image/image.html"
-                >Image</a
-              >
-            </li>
-            <li class="pad-xs list-type-none">
-              <span class="iconify" data-icon="whh:html"></span>
-              <a
-                class="btn-primary-outline-non deco-none"
-                href="./../../components/Input/input.html"
-                >Input</a
-              >
-            </li>
-            <li class="pad-xs list-type-none">
-              <span class="iconify" data-icon="vaadin:modal-list"></span>
-              <a
-                class="btn-primary-outline-non deco-none"
-                href="./../../components/Modal/modal.html"
-                >Modal</a
-              >
-            </li>
-            <li class="pad-xs list-type-none">
-              <span
-                class="iconify"
-                data-icon="fluent:navigation-16-regular"
-              ></span>
-              <a class="btn-primary-outline-non deco-none" href="#"
-                >Navigation</a
-              >
-            </li>
-            <li class="pad-xs list-type-none">
-              <span class="iconify" data-icon="ic:twotone-star-rate"></span>
-              <a class="btn-primary-outline-non deco-none" href="#">Rating</a>
-            </li>
-            <li class="pad-xs list-type-none">
-              <span class="iconify" data-icon="bi:grid-1x2"></span>
-              <a
-                class="btn-primary-outline-non deco-none"
-                href="./../../components/Simplified Grid/simplified-grid.html"
-                >Simplified Grid</a
-              >
-            </li>
-            <li class="pad-xs list-type-none">
-              <span class="iconify" data-icon="octicon:typography-24"></span>
-              <a
-                class="btn-primary-outline-non deco-none"
-                href="./../../components/Typography/typography.html"
-                >Typography</a
-              >
-            </li>
-          </ul>
-        </div>
-      </aside>
+      <aside class="aside"></aside>
       <!-- Badge Main Content starting here -->
       <div class="main-content content-wrap">
         <div class="text-5 highlightMainText">Badge</div>
@@ -245,22 +34,22 @@
             its child element.
           </p>
           <div class="text-3 mar-y-4 highlightMainText">Example</div>
-          <div class="basic_container badge_cont mar-y-2 pad-md">
-            <div class="badge_div">
+          <div class="basic_container badge-cont mar-y-2 pad-md">
+            <div class="badge-div">
               <img
                 src="./../../assets/avatar.png"
                 alt=""
                 class="md-height xl-bdr-radius"
               />
-              <div class="onlineBadge"></div>
+              <div class="online-badge badge-position"></div>
             </div>
-            <div class="badge_div">
+            <div class="badge-div">
               <img
                 src="./../../assets/avatar.png"
                 alt=""
                 class="md-height xl-bdr-radius"
               />
-              <div class="busyBadge"></div>
+              <div class="busy-badge badge-position"></div>
             </div>
           </div>
           <div class="code-snippet">
@@ -276,47 +65,47 @@
             child element.
           </p>
           <div class="text-3 mar-y-4 highlightMainText">Example</div>
-          <div class="basic_container badge_cont mar-y-2 pad-md">
-            <div class="badge_div">
+          <div class="basic_container badge-cont mar-y-2 pad-md">
+            <div class="badge-div">
               <span
                 class="iconify"
                 data-icon="clarity:notification-solid"
               ></span>
-              <div class="notifyBadge"><span>20</span></div>
+              <div class="notify-badge"><span>20</span></div>
               <div class="text-2">Notify</div>
             </div>
-            <div class="badge_div">
+            <div class="badge-div">
               <span class="iconify" data-icon="bi:cart-check"></span>
-              <div class="notifyBadge"><span>20</span></div>
+              <div class="notify-badge"><span>20</span></div>
               <div class="text-2">Cart</div>
             </div>
-            <div class="badge_div">
+            <div class="badge-div">
               <span
                 class="iconify"
                 data-icon="icon-park-outline:update-rotation"
               ></span>
-              <div class="notifyBadge"><span>20</span></div>
+              <div class="notify-badge"><span>20</span></div>
               <div class="text-2">Update</div>
             </div>
-            <div class="badge_div">
+            <div class="badge-div">
               <span class="iconify" data-icon="icon-park-outline:like"></span>
-              <div class="notifyBadge"><span>20</span></div>
+              <div class="notify-badge"><span>20</span></div>
               <div class="text-2">Wishlist</div>
             </div>
-            <div class="badge_div">
+            <div class="badge-div">
               <span
                 class="iconify"
                 data-icon="healthicons:ui-user-profile"
               ></span>
               <div class="text-2">User Name</div>
             </div>
-            <div class="badge_div">
+            <div class="badge-div">
               <img
                 src="./../../assets/avatar.png"
                 alt=""
                 class="sm-height xl-bdr-radius"
               />
-              <div class="notifyBadge"><span>20</span></div>
+              <div class="notify-badge"><span>20</span></div>
             </div>
           </div>
           <div class="code-snippet">
