@@ -1,6 +1,11 @@
+/*
+    Author: Vrushabh Dhatrak
+    Release: 0.1
+    Description : Input Component Css
+*/
 /* Input Starting Here */
 /* First Input Field Starting Here */
-.custom_input_one {
+.custom-input-one {
     display: flex;
     position: relative;
     --radius:0.5rem;
@@ -8,7 +13,7 @@
     width:50%;
     margin-bottom: 0.5rem;
 }
-.input_field{
+.input-field{
     width: 25rem;
     border: 0.2rem solid var(--primary-text-color);
     border-radius: 0.5rem;
@@ -19,7 +24,7 @@
     flex-grow: 1;
 }
 
-.custom_input_one .input_field:hover{
+.custom-input-one .input-field:hover{
     border-color: var(--primary-color);
 
 }
@@ -29,11 +34,11 @@
     right: 2%;
 }
 
-.input_field:focus{
+.input-field:focus{
     outline: 2px solid var(--primary-color);
 }
 
-.custom_input_one .input__label{
+.custom-input-one .input-label{
     position: absolute;
     left: 1rem;
     top: 1.3rem;
@@ -45,20 +50,16 @@
     color: var(--primary-text-color);
 }
 /* What does below code mean if user click on input field then label will move upwards & if user enter some text and click outside then label will not come to its original position it remains its position  */
-.input_field:focus ~ .input__label,
-.input_field:not(:placeholder-shown).input_field:not(:focus)~.input__label{
+.input-field:focus ~ .input-label,
+.input-field:not(:placeholder-shown).input-field:not(:focus)~.input-label{
     top:-0.1rem;
     font-size:0.8rem;
     left: 0.8rem;
     border-color: var(--primary-color);
     background: transparent;
 }
-
-
-
-
 /* First Input Field With Error Starting Here */
-.input_field_error{
+.input-field-error{
     border: 0.2rem solid var(--danger-color);
     border-radius: 0.5rem;
     color: #fff;
@@ -68,16 +69,16 @@
     color: var(--secondory-text-color);
     flex-grow: 1;
 }
-.input .input_field_error:hover{
+.input .input-field-error:hover{
     border-color: var(--danger-color);
 
 }
-.input_field_error:focus{
+.input-field-error:focus{
     outline: 2px solid var(--danger-color);
 }
 /* What does below code mean if user click on input field then label will move upwards & if user enter some text and click outside then label will not come to its original position it remains its position  */
-.input_field_error:focus ~ .input__label,
-.input_field_error:not(:placeholder-shown).input_field_error:not(:focus)~.input__label{
+.input-field-error:focus ~ .input-label,
+.input-field-error:not(:placeholder-shown).input-field-error:not(:focus)~.input-label{
     top:-0.1rem;
     font-size:0.8rem;
     left: 0.8rem;
@@ -86,7 +87,7 @@
 }
 
 /* First Input Field With Error State Starting Here */
-.input_field_success{
+.input-field-success{
     width: 25rem;
     border: 0.2rem solid var(--success-color);
     border-radius: 0.5rem;
@@ -96,16 +97,16 @@
     color: var(--secondory-text-color);
     flex-grow: 1;
 }
-.input .input_field_success:hover{
+.input .input-field-success:hover{
     border-color: var(--success-color);
 
 }
-.input_field_success:focus{
+.input-field-success:focus{
     outline: 2px solid var(--success-color);
 }
 /* What does below code mean if user click on input field then label will move upwards & if user enter some text and click outside then label will not come to its original position it remains its position  */
-.input_field_success:focus ~ .input__label,
-.input_field_success:not(:placeholder-shown).input_field_success:not(:focus)~.input__label{
+.input-field-success:focus ~ .input-label,
+.input-field-success:not(:placeholder-shown).input-field-success:not(:focus)~.input-label{
     top:-0.1rem;
     font-size:0.8rem;
     left: 0.8rem;
@@ -114,7 +115,7 @@
 }
 
 /*New Input Field Variety Start*/
-.custom_input_field_two {
+.custom-input-field-two {
     display:flex;
     position: relative;
     width:50%;
@@ -125,7 +126,7 @@
     margin-bottom: 0.5rem;
 }
 
-.custom_input_field_two input {
+.custom-input-field-two input {
   border: none;
   -webkit-appearance: none;
   -ms-appearance: none;
@@ -139,7 +140,7 @@
   font-size: 1.4rem;
 }
 
-.custom_input_field_two .placeholder {
+.custom-input-field-two .placeholder {
   position: absolute;
   left: 1.5rem;
   width: calc(100% - (1.5 * 2));
@@ -156,21 +157,21 @@
     font-size 0.3s ease;
 }
 
-.custom_input_field_two input.dirty + .placeholder,
-.custom_input_field_two input:focus + .placeholder,
-.custom_input_field_two input:not(:placeholder-shown) + .placeholder {
+.custom-input-field-two input.dirty + .placeholder,
+.custom-input-field-two input:focus + .placeholder,
+.custom-input-field-two input:not(:placeholder-shown) + .placeholder {
   top: -1rem;
   font-size: 1rem;
   color: #222;
 }
 
 
-.custom_input_field_two .error-message:empty {
+.custom-input-field-two .error-message:empty {
   opacity: 0;
 }
 
 /*New Input Field Normal State Starting Here*/
-.custom_input_field_two.normal input {
+.custom-input-field-two.normal input {
     flex-grow: 1;
     border-radius: 0;
     border-top-left-radius: 0.3rem;
@@ -182,14 +183,14 @@
     transition: background-size 0.3s ease;
 }
 
-.custom_input_field_two.normal input.dirty,
-.custom_input_field_two.normal input:not(:placeholder-shown),
-.custom_input_field_two.normal input:focus {
+.custom-input-field-two.normal input.dirty,
+.custom-input-field-two.normal input:not(:placeholder-shown),
+.custom-input-field-two.normal input:focus {
     background-size: 100% 0.15em, 100% 0.1em, 100%;
 }
 
 /*New Input Field Error State Starting Here*/
-.custom_input_field_two.error input {
+.custom-input-field-two.error input {
     flex-grow: 1;
     border-radius: 0;
     border-top-left-radius: 0.3rem;
@@ -201,14 +202,14 @@
     transition: background-size 0.3s ease;
 }
 
-.custom_input_field_two.error input.dirty,
-.custom_input_field_two.error input:not(:placeholder-shown),
-.custom_input_field_two.error input:focus {
+.custom-input-field-two.error input.dirty,
+.custom-input-field-two.error input:not(:placeholder-shown),
+.custom-input-field-two.error input:focus {
     background-size: 100% 0.15em, 100% 0.1em, 100%;
 }
 
 /*New Input Field With Success State Starting Here*/
-.custom_input_field_two.success input {
+.custom-input-field-two.success input {
     flex-grow: 1;
     border-radius: 0;
     border-top-left-radius: 0.3rem;
@@ -220,14 +221,14 @@
     transition: background-size 0.3s ease;
 }
 
-.custom_input_field_two.success input.dirty,
-.custom_input_field_two.success input:not(:placeholder-shown),
-.custom_input_field_two.success input:focus {
+.custom-input-field-two.success input.dirty,
+.custom-input-field-two.success input:not(:placeholder-shown),
+.custom-input-field-two.success input:focus {
     background-size: 100% 0.15em, 100% 0.1em, 100%;
 }
 
 @media screen and (max-width:600px){
-    .input_cont {
+    .input-cont {
         display: flex;
         flex-direction: column;
         height: 350px;

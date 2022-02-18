@@ -4,57 +4,48 @@
     Description : Badge Component CSS file.
 */
 /* Badges Starting Here */
-.badge_cont {
+.badge-cont {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.badge_div {
+.badge-div {
     position: relative;
     display: flex;
     flex-direction: column;
     
 }
-.onlineBadge {
-    width: 2rem;
-    height: 2rem;
-    background: var(--success-color);
-    position: relative;
+.badge-position{
+    width: 2.2rem;
+    height: 2.2rem;
     border-radius: 50%;
     border: 0.4rem solid #ffff;
     position: absolute;
-    bottom: 1rem;
-    right: 0;
-    
+    bottom: 0.2rem;
+    right: -0.5rem;
 }
-.busyBadge {
-    width: 2rem;
-    height: 2rem;
+.online-badge {
+   background: var(--success-color);
+}
+.busy-badge {
     background: var(--danger-color);
-    position: relative;
-    border-radius: 50%;
-    border: 0.4rem solid #ffff;
-    position: absolute;
-    bottom: 1rem;
-    right: 0;
 }
-.badge_div svg {
-    height: 3rem;
+.badge-div svg {
+    height: 3.5rem;
     width: auto;
 }
-.notifyBadge {
+.notify-badge {
     width: 2rem;
     height: 2rem;
     border: 0.2rem solid var(--primary-color);
     border-radius: 50%;
     position: absolute;
-    top: -0.9rem;
-    right: -1.3px;
+    top: -0.5rem;
+    right: 0.1rem;
     color: #ffff;
     background: var(--primary-color);
 }
-  
-.notifyBadge span {
+.notify-badge span {
     font-size: 1rem;
     position: relative;
     left: 0.3rem;
@@ -62,13 +53,3 @@
     color: #fff;
     font-weight: 700;
 }
-
-    
-
-    
-
-    
-
-  
-
-

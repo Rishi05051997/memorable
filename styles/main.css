@@ -15,11 +15,8 @@
 @import "./reset.css";
 @import "./simplified-grid.css";
 @import "./tab.css";
+@import "./toast.css";
 @import "./utils.css";
-
-
-
-
 
 /*************** Project Initials ***************/
 
@@ -30,11 +27,11 @@
 }
 /* Here converted Default font size to 10px */
 html {
-    font-size:62.5%;
+    font-size:50%;
 }
 
 @media (max-width: 400px) {
     html {
-        font-size: 50%;
+        font-size: 25%;
     }
 }

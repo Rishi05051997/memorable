@@ -1,0 +1,42 @@
+/*
+    Author: Vrushabh Dhatrak
+    Release: 0.1
+    Description : Button Component Css
+*/
+/* ********** Chips starting here ************* */
+.chips-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.btn-chips {
+    display: flex;
+    align-items: center;
+    /* padding: 1.5rem; */
+    width: max-content;
+    width: 14rem;
+    height: 5rem;
+    /* border-radius: 50%; */
+    border: 1px solid transparent;
+    border-radius: 3.5rem;
+    justify-content: space-between;
+    position: relative;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+}
+.chips_avatar {
+    border-radius:50%;
+}
+.btn-chips img {
+    position: absolute;
+    left: 0;
+}
+
+.btn-chips span {
+    position: absolute;
+    left: 45%;
+}
+.btn-chips svg {
+    position: absolute;
+    right: 0.5rem;
+}
