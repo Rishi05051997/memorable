@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Vrushabh Dhatrak" />
+    <meta
+      name="description"
+      content="Toastr is a very nice component, and you can show success, error, warning & Informative messages."
+    />
+    <link rel="stylesheet" href="./../../styles/main.css" />
+    <script src="./../../script/header.js" defer></script>
+    <script src="./../../script/navigation.js" defer></script>
+    <script src="./../../script/toast.js" defer></script>
+    <script src="./../../script/navELements.js" defer></script>
+    <script src="./../../script/asideElements.js" defer></script>
+    <script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script>
+    <title>Getting Start</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-container"></div>
+      <aside class="aside"></aside>
+      <div class="main-content content-wrap">
+        <div class="text-5 highlightMainText">Toastr</div>
+        <hr class="mar-y-3" />
+        <p class="mar-y-2 text-3">
+            Toastr is a very nice component, and you can show success, error, warning & Informative messages.
+        </p>
+        <div class="main-content-subblock">
+          <div class="highlightMainText text-3">Toastr</div>
+          <button
+            onclick="toastrSuccess(this)"
+            class="btn btn-primary text-2 mar-y-3"
+          >
+            success-alert-toast
+          </button>
+
+          <button
+            onclick="toastrError(this)"
+            class="btn btn-primary text-2 mar-y-3"
+          >
+            error-alert-toast
+          </button>
+
+          <button
+            onclick="toastrWarning(this)"
+            class="btn btn-primary text-2 mar-y-3"
+          >
+            warning-alert-toast
+          </button>
+
+          <button
+          onclick="toastrInfo(this)"
+          class="btn btn-primary text-2 mar-y-4"
+        >
+          info-alert-toast
+        </button>
+        <div class="code-snippet">
+          <iframe src="https://www.thiscodeworks.com/embed/620cd2a180e1cd0015bd94d7" class="mar-y-2" frameborder="0"></iframe>
+        </div>
+        
+          <div class="toastr success-alert-toast blck_">
+            <div class="alert success-alert mar-y-2">
+              <span class="iconify head-1" data-icon="ep:success-filled"></span>
+              <h4 class="head-4 mar-sm">This is a Success alert</h4>
+              <span
+                class="iconify text-3"
+                data-icon="akar-icons:circle-x"
+              ></span>
+            </div>
+          </div>
+
+          <div class="toastr error-alert-toast blck_">
+            <!-- error alert  -->
+            <div class="alert error-alert mar-y-2">
+              <span
+                class="iconify head-1"
+                data-icon="jam:triangle-danger"
+              ></span>
+              <h4 class="head-4 mar-sm">This is an Error alert</h4>
+              <span
+                class="iconify text-3"
+                data-icon="akar-icons:circle-x"
+              ></span>
+            </div>
+          </div>
+
+          <div class="toastr warning-alert-toast blck_">
+            <!-- warning alert  -->
+            <div class="alert warning-alert mar-y-2">
+                <span class="iconify head-1" data-icon="gg:danger"></span>
+                <h4 class="head-4 mar-sm">This is a Warning alert</h4>
+                <span class="iconify text-3" data-icon="akar-icons:circle-x"></span>
+            </div>
+         </div>
+
+         <div class="toastr info-alert-toast blck_">
+            <!-- warning alert  -->
+            <div class="alert info-alert mar-y-2">
+                <span class="iconify head-1" data-icon="gg:danger"></span>
+                <h4 class="head-4 mar-sm">This is a Warning alert</h4>
+                <span class="iconify text-3" data-icon="akar-icons:circle-x"></span>
+            </div>
+         </div>
+      </div>
+    </div>
+  </body>
+</html>

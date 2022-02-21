@@ -1,0 +1,12 @@
+/*
+    Author: Vrushabh Dhatrak
+    Release: 0.1
+    Description : Toastr Component CSS file.
+*/
+/* Toastr starting here */
+.toastr {
+    position: fixed;
+    right: 10%;
+    top: 14%;
+    z-index: 15;
+}  
