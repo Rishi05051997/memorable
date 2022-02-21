@@ -1,3 +1,6 @@
+/*
+  Below toggleMenu function is making header mobile responsive
+*/
 function toggleMenu() {
     var menuToggle = document.querySelector('.toggle');
     var menu = document.querySelector('.menu');

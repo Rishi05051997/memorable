@@ -1,7 +1,6 @@
-// document.querySelectorAll(".toast").addEventListener("click", () => {
-//     document.querySelector(".toast").classList.remove("blck_")
-// })
-
+/*
+  Below functions are for showing toastr as success, error, warning & danger event.
+*/
 function toastrSuccess(ta) {
     document.querySelector(".success-alert-toast").classList.remove("blck_")
     setTimeout(() => {
@@ -31,7 +30,5 @@ function toastrInfo(ta) {
 }
 
 function close() {
-    debugger;
     document.querySelector(".toastr").classList.toggle("blck_")
-    console.log("clicked")
 }

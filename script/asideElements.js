@@ -1,6 +1,9 @@
+/*
+  Below makeAsideSection function is making aside section for the entire App
+*/
 const makeAsideSection = () => {
-    let asiderElement = document.querySelector('.aside');
-    asiderElement.innerHTML = `
+  let asiderElement = document.querySelector('.aside');
+  asiderElement.innerHTML = `
         <div class="side-list">
           <ul class="text-3">
             <h2 class="text-3 mar-lg imp-highlight-text">Getting Started</h2>

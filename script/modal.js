@@ -1,3 +1,6 @@
+/*
+  Below Code for Modal Opening & Closing
+*/
 ///// Modal Work 
 const modal = document.querySelector('.modal');
 const overlay = document.querySelector('.overlay');
