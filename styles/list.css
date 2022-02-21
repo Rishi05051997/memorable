@@ -1,0 +1,28 @@
+/*
+    Author: Vrushabh Dhatrak
+    Release: 0.1
+    Description : List Component Css
+*/
+/* List Starting Here*/
+.list-group {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 12.5rem;
+    width: 12.5rem;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.list-item:hover {
+  background-color: var(--primary-color-faint);
+}
+.list-circular {
+  list-style-type: circle;
+}
+.list-square {
+  list-style-type: square;
+}
