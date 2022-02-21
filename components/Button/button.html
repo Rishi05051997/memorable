@@ -13,226 +13,18 @@
     <link rel="stylesheet" href="./../../styles/main.css" />
     <script src="./../../script/header.js" defer></script>
     <script src="./../../script/navigation.js" defer></script>
+    <script src="./../../script/navELements.js" defer></script>
+    <script src="./../../script/asideElements.js" defer></script>
     <script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script>
     <title>Button</title>
   </head>
   <body>
     <div class="container">
-      <div class="header_container">
-        <header class="sticky">
-          <img
-            class="img_logo"
-            src="./../../assets/image section/logo.png"
-            alt="header_logo"
-          />
-          <a href="#" class="logo head-2">Memorable-UI </a>
-          <div class="toggle" onclick="toggleMenu();"></div>
-          <ul class="menu hide">
-            <li>
-              <a
-                onclick="toggleMenu();"
-                class="text-1"
-                href="./../Avatar/avatar.html"
-                >Avatar</a
-              >
-            </li>
-            <li>
-              <a
-                onclick="toggleMenu();"
-                class="text-1"
-                href="./../Alert/Alert.html"
-                >Alert</a
-              >
-            </li>
-            <li>
-              <a
-                onclick="toggleMenu();"
-                class="text-1"
-                href="./../Badge/bagde.html"
-                >Badge</a
-              >
-            </li>
-            <li>
-              <a
-                onclick="toggleMenu();"
-                class="text-1"
-                href="./../Button/button.html"
-                >Button</a
-              >
-            </li>
-            <li>
-              <a
-                onclick="toggleMenu();"
-                class="text-1"
-                href="./../Card/card.html"
-                >Card</a
-              >
-            </li>
-            <li>
-              <a
-                onclick="toggleMenu();"
-                class="text-1"
-                href="./../Image/image.html"
-                >Image</a
-              >
-            </li>
-            <li>
-              <a
-                onclick="toggleMenu();"
-                class="text-1"
-                href="./../Input/input.html"
-                >Input</a
-              >
-            </li>
-            <li>
-              <a
-                onclick="toggleMenu();"
-                class="text-1"
-                href="./../Modal/modal.html"
-                >Modal</a
-              >
-            </li>
-            <li>
-              <a onclick="toggleMenu();" class="text-1" href="#">Navigation</a>
-            </li>
-            <li>
-              <a onclick="toggleMenu();" class="text-1" href="#">Rating</a>
-            </li>
-            <li>
-              <a
-                onclick="toggleMenu();"
-                class="text-1"
-                href="./../Simplified Grid/simplified-grid.html"
-                >Simplified Grid</a
-              >
-            </li>
-            <li>
-              <a
-                onclick="toggleMenu();"
-                class="text-1"
-                href="./../Typography/typography.html"
-                >Typography</a
-              >
-            </li>
-          </ul>
-          <ul class="menu left_auto">
-            <li><a class="text-3" onclick="toggleMenu();">Documentation</a></li>
-            <div class="btn-round">
-              <button class="btn-primary xl-bdr-radius pad-xs">
-                <a href="https://www.github.com/">
-                  <span
-                    class="iconify"
-                    data-icon="akar-icons:github-fill"
-                  ></span>
-                </a>
-              </button>
-            </div>
-          </ul>
-        </header>
-      </div>
-      <aside class="aside">
-        <div class="side-list">
-          <ul class="text-3">
-            <h2 class="text-3 mar-lg imp-highlight-text">Getting Started</h2>
-            <li class="pad-xs aside-list list-type-none">
-              <span class="iconify" data-icon="carbon:user-avatar"></span>
-              <a
-                class="btn-primary-outline-non deco-none"
-                href="./../../components/Avatar/avatar.html"
-                >Avatar</a
-              >
-            </li>
-            <li class="pad-xs list-type-none">
-              <span
-                class="iconify"
-                data-icon="eva:alert-triangle-outline"
-              ></span>
-              <a
-                class="btn-primary-outline-non deco-none"
-                href="./../../components/Alert/Alert.html"
-                >Alert</a
-              >
-            </li>
-            <li class="pad-xs list-type-none">
-              <span class="iconify" data-icon="fluent:badge-20-filled"></span>
-              <a
-                class="btn-primary-outline-non deco-none"
-                href="./../../components/Badge/bagde.html"
-                >Badge</a
-              >
-            </li>
-            <li class="pad-xs list-type-none">
-              <span class="iconify" data-icon="dashicons:button"></span>
-              <a
-                class="btn-primary-outline-non deco-none"
-                href="./../../components/Button/button.html"
-                >Button</a
-              >
-            </li>
-            <li class="pad-xs list-type-none">
-              <span class="iconify" data-icon="charm:cards"></span>
-              <a
-                class="btn-primary-outline-non deco-none"
-                href="./../../components/Card/card.html"
-                >Card</a
-              >
-            </li>
-            <li class="pad-xs list-type-none">
-              <span class="iconify" data-icon="bi:file-earmark-image"></span>
-              <a
-                class="btn-primary-outline-non deco-none"
-                href="./../../components/Image/image.html"
-                >Image</a
-              >
-            </li>
-            <li class="pad-xs list-type-none">
-              <span class="iconify" data-icon="whh:html"></span>
-              <a
-                class="btn-primary-outline-non deco-none"
-                href="./../../components/Input/input.html"
-                >Input</a
-              >
-            </li>
-            <li class="pad-xs list-type-none">
-              <span class="iconify" data-icon="vaadin:modal-list"></span>
-              <a
-                class="btn-primary-outline-non deco-none"
-                href="./../../components/Modal/modal.html"
-                >Modal</a
-              >
-            </li>
-            <li class="pad-xs list-type-none">
-              <span
-                class="iconify"
-                data-icon="fluent:navigation-16-regular"
-              ></span>
-              <a class="btn-primary-outline-non deco-none" href="#"
-                >Navigation</a
-              >
-            </li>
-            <li class="pad-xs list-type-none">
-              <span class="iconify" data-icon="ic:twotone-star-rate"></span>
-              <a class="btn-primary-outline-non deco-none" href="#">Rating</a>
-            </li>
-            <li class="pad-xs list-type-none">
-              <span class="iconify" data-icon="bi:grid-1x2"></span>
-              <a
-                class="btn-primary-outline-non deco-none"
-                href="./../../components/Simplified Grid/simplified-grid.html"
-                >Simplified Grid</a
-              >
-            </li>
-            <li class="pad-xs list-type-none">
-              <span class="iconify" data-icon="octicon:typography-24"></span>
-              <a
-                class="btn-primary-outline-non deco-none"
-                href="./../../components/Typography/typography.html"
-                >Typography</a
-              >
-            </li>
-          </ul>
-        </div>
-      </aside>
+      <!-- Header starting here -->
+      <div class="header-container"></div>
+      <!-- Aside starting here -->
+      <aside class="aside"></aside>
+      <!-- Button Main Content starting here -->
       <div class="main-content content-wrap">
         <div class="text-5 highlightMainText">Button</div>
         <hr class="mar-y-3" />
@@ -411,22 +203,34 @@
           </p>
           <div class="basic_container button_cont mar-y-2 pad-md">
             <button class="btn btn-primary">
-              <span class="iconify" data-icon="fluent:alert-24-filled"></span>
-            </button>
-            <button class="btn btn-primary">
-              <span class="iconify" data-icon="bi:cart-check-fill"></span>
-            </button>
-            <button class="btn btn-primary">
-              <span class="iconify" data-icon="ci:settings-filled"></span>
+              <span
+                class="iconify text-3"
+                data-icon="fluent:alert-24-filled"
+              ></span>
             </button>
             <button class="btn btn-primary">
               <span
-                class="iconify"
+                class="iconify text-3"
+                data-icon="bi:cart-check-fill"
+              ></span>
+            </button>
+            <button class="btn btn-primary">
+              <span
+                class="iconify text-3"
+                data-icon="ci:settings-filled"
+              ></span>
+            </button>
+            <button class="btn btn-primary">
+              <span
+                class="iconify text-3"
                 data-icon="ic:baseline-account-circle"
               ></span>
             </button>
             <button class="btn btn-primary">
-              <span class="iconify" data-icon="ic:baseline-password"></span>
+              <span
+                class="iconify text-3"
+                data-icon="ic:baseline-password"
+              ></span>
             </button>
           </div>
           <div class="code-snippet">
@@ -441,7 +245,7 @@
           </div>
           <div class="basic_container button_cont mar-y-2 pad-md">
             <!-- facebook icon button -->
-            <button class="btn btn-primary text-2">
+            <button class="btn btn-primary text-2 social-btn">
               <span
                 class="iconify"
                 data-icon="ant-design:facebook-filled"
@@ -449,19 +253,19 @@
               <a href="https://www.facebbok.com/"> Facebook </a>
             </button>
             <!-- Twitter icon button -->
-            <button class="btn btn-primary text-2">
+            <button class="btn btn-primary text-2 social-btn">
               <span class="iconify" data-icon="mdi:twitter"></span>
               <a href="https://www.twitter.com/"> Twitter </a>
             </button>
             <!-- Linkedin icon button -->
-            <button class="btn btn-primary text-2">
+            <button class="btn btn-primary text-2 social-btn">
               <span class="iconify" data-icon="akar-icons:linkedin-fill"></span>
               <a href="https://www.linkedin.com/in/vrushabh-dhatrak-328ab0148/">
                 LinkedIn
               </a>
             </button>
             <!-- Instagram icon button -->
-            <button class="btn btn-primary text-2">
+            <button class="btn btn-primary text-2 social-btn">
               <span
                 class="iconify"
                 data-icon="akar-icons:instagram-fill"
@@ -469,7 +273,7 @@
               <a href="https://www.instagram.com/"> Instagram </a>
             </button>
             <!-- Github icon button -->
-            <button class="btn btn-primary text-2">
+            <button class="btn btn-primary text-2 social-btn">
               <span class="iconify" data-icon="akar-icons:github-fill"></span>
               <a href="https://www.github.com/"> Github </a>
             </button>
@@ -487,7 +291,7 @@
           <div class="basic_container button_cont mar-y-2 pad-md">
             <!-- facebook round button -->
             <div class="btn-round">
-              <button class="btn-primary round xl-bdr-radius pad-xs">
+              <button class="btn-primary btn-round">
                 <a href="https://www.facebbok.com/">
                   <span
                     class="iconify"
@@ -498,7 +302,7 @@
             </div>
             <!-- twitter round button -->
             <div class="btn-round">
-              <button class="btn-primary round xl-bdr-radius pad-xs">
+              <button class="btn-primary btn-round">
                 <a href="https://www.twitter.com/">
                   <span class="iconify" data-icon="mdi:twitter"></span>
                 </a>
@@ -506,7 +310,7 @@
             </div>
             <!-- linkedin round button -->
             <div class="btn-round">
-              <button class="btn-primary round xl-bdr-radius pad-xs">
+              <button class="btn-primary btn-round">
                 <a
                   href="https://www.linkedin.com/in/vrushabh-dhatrak-328ab0148/"
                 >
@@ -519,7 +323,7 @@
             </div>
             <!-- instargarm round button -->
             <div class="btn-round">
-              <button class="btn-primary round xl-bdr-radius pad-xs">
+              <button class="btn-primary btn-round">
                 <a href="https://www.instagram.com/">
                   <span
                     class="iconify"
@@ -530,7 +334,7 @@
             </div>
             <!-- github round button -->
             <div class="btn-round">
-              <button class="btn-primary round xl-bdr-radius pad-xs">
+              <button class="btn-primary btn-round">
                 <a href="https://www.github.com/">
                   <span
                     class="iconify"

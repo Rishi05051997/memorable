@@ -27,11 +27,11 @@
 }
 /* Here converted Default font size to 10px */
 html {
-    font-size:62.5%;
+    font-size:50%;
 }
 
 @media (max-width: 400px) {
     html {
-        font-size: 50%;
+        font-size: 25%;
     }
 }

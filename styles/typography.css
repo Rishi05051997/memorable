@@ -1,3 +1,9 @@
+/*
+  Author: Vrushabh Dhatrak
+  Release: 0.1
+  Description : Typography Component Css
+*/
+/* Tab Starting here  */
 /******  Typography  ********/
 /******  Spacing  ********/
 /******  Height-Utility-classes  ********/
@@ -269,12 +275,3 @@
 .mar-infinite {
     margin: var(--mar-infinite);
 }
-
-
-
-    
-    
-
-  
-
-
