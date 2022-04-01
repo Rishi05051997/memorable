@@ -1,0 +1,12 @@
+/*
+  Author: Vrushabh Dhatrak
+  Release: 0.1
+  Description : Tab Component Css
+*/
+/* Rating Starting here  */
+.rating .checked {
+   color: var(--warning-color);
+}
+.rating .unchecked {
+    color: var( --dark-color-hover);
+ }
