@@ -67,6 +67,14 @@ const makeAsideSection = () => {
               >
             </li>
             <li class="pad-xs list-type-none">
+              <span class="iconify" data-icon="bi:grid-1x2"></span>
+              <a
+                class="btn-primary-outline-non deco-none"
+                href="./../../components/list/list.html"
+                >List</a
+              >
+            </li>
+            <li class="pad-xs list-type-none">
               <span class="iconify" data-icon="vaadin:modal-list"></span>
               <a
                 class="btn-primary-outline-non deco-none"
