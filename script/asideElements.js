@@ -79,7 +79,7 @@ const makeAsideSection = () => {
                 class="iconify"
                 data-icon="fluent:navigation-16-regular"
               ></span>
-              <a class="btn-primary-outline-non deco-none" href="#"
+              <a class="btn-primary-outline-non deco-none"  href="./../../components/Navigation/Navigation.html"
                 >Navigation</a
               >
             </li>
